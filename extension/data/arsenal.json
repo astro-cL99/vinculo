@@ -1,0 +1,4214 @@
+[
+  {
+    "id": "aciclovir",
+    "name": "Aciclovir",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "400 mg",
+        "concentration": "400 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 400.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "EN EXISTENCIA TAMBIEN 1 FRASCO JARABE"
+      }
+    ]
+  },
+  {
+    "id": "adenosina_sulfato",
+    "name": "Adenosina sulfato",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "6 mg/2 mL",
+        "concentration": "6 mg / 2 mL",
+        "mgPerMl": 3.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "adifenina_propifenazona",
+    "name": "Adifenina + propifenazona",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "supositorio",
+        "forma": "Supositorios",
+        "presentation": "440 + 50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Solo adultos, Tambien uso matrona"
+      }
+    ]
+  },
+  {
+    "id": "agua_bidestilada_para_inyectables",
+    "name": "Agua bidestilada (para inyectables)",
+    "group": "24.00 MISCELÁNEOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "5-10 mL",
+        "concentration": "5-10 mL",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "aluminio_hidroxido",
+    "name": "Aluminio Hidroxido",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "suspension",
+        "forma": "Suspensión u otra forma farmacéutica",
+        "presentation": "6% / 500 mg",
+        "concentration": "6.0%",
+        "mgPerMl": 60.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 6.0,
+        "notes": "Hay comprimidos masticables"
+      }
+    ]
+  },
+  {
+    "id": "amiodarona",
+    "name": "Amiodarona",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "150 mg/3 mL",
+        "concentration": "150 mg / 3 mL",
+        "mgPerMl": 50.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 3 - 5  ampollas"
+      }
+    ]
+  },
+  {
+    "id": "amitriptilina_clorhidrato",
+    "name": "Amitriptilina clorhidrato",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "25 mg",
+        "concentration": "25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 25.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Profilaxis migraña - cefalea crónica diaria"
+      }
+    ]
+  },
+  {
+    "id": "amlodipino",
+    "name": "Amlodipino",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "5 mg y 10 mg",
+        "concentration": "5 mg + 10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "amoxicilina",
+    "name": "Amoxicilina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Comprimidos o cápsulas",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión",
+        "presentation": "500 mg/5 mL",
+        "concentration": "500 mg / 5 mL",
+        "mgPerMl": 100.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "amoxicilina_acido_clavulanico",
+    "name": "Amoxicilina + Ácido clavulánico",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "500 mg + 125 mg",
+        "concentration": "500 mg + 125 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa 875mg + 125 mg"
+      },
+      {
+        "kind": "jarabe",
+        "forma": "Jarabe",
+        "presentation": "400 mg/57 mg/5 mL",
+        "concentration": "57 mg / 5 mL",
+        "mgPerMl": 11.4,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "atenolol_clorhidrato",
+    "name": "Atenolol clorhidrato",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "atorvastatina",
+    "name": "Atorvastatina",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "20 mg",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa cm 10 mg"
+      }
+    ]
+  },
+  {
+    "id": "atropina_papaverina",
+    "name": "Atropina + papaverina",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "0,5 mg + 40 mg",
+        "concentration": "0.5 mg + 40 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 0.5,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "atropina_sulfato",
+    "name": "Atropina sulfato",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "1 mg/mL",
+        "concentration": "1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "azitromicina",
+    "name": "Azitromicina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "400 mg/5 mL",
+        "concentration": "400 mg / 5 mL",
+        "mgPerMl": 80.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "bedaquilina",
+    "name": "Bedaquilina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud.  Considerar la abreviación : MDR : MultiDrogo resistente"
+      }
+    ]
+  },
+  {
+    "id": "bencilpenicilina_benzatina",
+    "name": "Bencilpenicilina benzatina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "inyectable",
+        "forma": "Polvo para solución inyectable",
+        "presentation": "Frasco ampolla 1.200.000 UI",
+        "concentration": "Frasco ampolla 1.200.000 UI",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "SIFILIS - VIH Matronas"
+      }
+    ]
+  },
+  {
+    "id": "bencilpenicilina_sodica_penicilina_sodica",
+    "name": "Bencilpenicilina sódica (penicilina sódica)",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "inyectable",
+        "forma": "Polvo para solución inyectable",
+        "presentation": "1.000.000 UI ó  2.000.000",
+        "concentration": "1.000.000 UI ó  2.000.000",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamento que de acuerdo a evidencia y prescripcion, se define con decisión local de permanencia en cada comuna"
+      }
+    ]
+  },
+  {
+    "id": "betametasona",
+    "name": "Betametasona",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "4 mg/mL amp. 1 mL",
+        "concentration": "4 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 4.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 ampollas"
+      },
+      {
+        "kind": "topico",
+        "forma": "Crema o ungüento",
+        "presentation": "0.05%",
+        "concentration": "0.05%",
+        "mgPerMl": 0.5,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 0.05,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "bicarbonato_de_sodio",
+    "name": "Bicarbonato de sodio",
+    "group": "22.00 MEDICAMENTOS UTILIZADOS PARA CORREGIR PERTURBACIONES DEL MEDIO INTERNO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "8,4% PV /  20 mL",
+        "concentration": "8.4%",
+        "mgPerMl": 84.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 8.4,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Matraz",
+        "presentation": "8,4% matraz 250mL",
+        "concentration": "8.4%",
+        "mgPerMl": 84.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 8.4,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "budesonida",
+    "name": "Budesonida",
+    "group": "21.00 MEDICAMENTOS QUE ACTUAN EN EL APARATO RESPIRATORIO",
+    "presentations": [
+      {
+        "kind": "inhalador",
+        "forma": "Inhalador",
+        "presentation": "200 mcg/dosis",
+        "concentration": "200 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 200.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "buprenorfina",
+    "name": "Buprenorfina",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Parches",
+        "presentation": "35 MCG",
+        "concentration": "35 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 35.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "calcio_gluconato",
+    "name": "Calcio gluconato",
+    "group": "22.00 MEDICAMENTOS UTILIZADOS PARA CORREGIR PERTURBACIONES DEL MEDIO INTERNO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol.Inyectable",
+        "presentation": "10% / 10 mL",
+        "concentration": "10.0%",
+        "mgPerMl": 100.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 10.0,
+        "notes": "CP: 5 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "captopril",
+    "name": "Captopril",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "25 mg",
+        "concentration": "25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 25.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 comprimidos . Uso exclusivo arsenal de Urgencia. - Guia MINSAL"
+      }
+    ]
+  },
+  {
+    "id": "carbamazepina",
+    "name": "Carbamazepina",
+    "group": "05.00 ANTICONVULSIVANTES Y ANTIEPILÉPTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos de liberación prolongada",
+        "presentation": "400 mg",
+        "concentration": "400 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 400.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "200 mg",
+        "concentration": "200 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 200.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Disponible para indicacion especialista odontólogo asociado a protocolo interno comunal"
+      }
+    ]
+  },
+  {
+    "id": "carbon_activado",
+    "name": "Carbón activado",
+    "group": "04.00 ANTÍDOTOS Y OTRAS SUSTANCIAS USADAS EN EL TRATAMIENTO DE INTOXICACIONES",
+    "presentations": [
+      {
+        "kind": "suspension",
+        "forma": "Polvo para suspensión oral",
+        "presentation": "30 - 50 g",
+        "concentration": "30 - 50 g",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "carvedilol",
+    "name": "Carvedilol",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "6,25 mg",
+        "concentration": "6.25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 6.25,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Se puede disponer de todas las presentaciones disponibles en el mercado. De acuerdo a OOTT del FOFAR."
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "25 mg",
+        "concentration": "25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 25.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Se puede disponer de todas las presentaciones disponibles en el mercado. De acuerdo a OOTT del FOFAR."
+      }
+    ]
+  },
+  {
+    "id": "cefadroxilo",
+    "name": "Cefadroxilo",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "250 mg/5 mL",
+        "concentration": "250 mg / 5 mL",
+        "mgPerMl": 50.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "celecoxib",
+    "name": "Celecoxib",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas",
+        "presentation": "200 mg",
+        "concentration": "200 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 200.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cetirizina",
+    "name": "Cetirizina",
+    "group": "03.00 MEDICAMENTOS ANTIALÉRGICOS Y USADOS EN EL TRATAMIENTO DE LA ANAFILAXIA",
+    "presentations": [
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "5 mg/5 mL",
+        "concentration": "5 mg / 5 mL",
+        "mgPerMl": 1.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Opcional: Loratadina 5 mg/5ml"
+      }
+    ]
+  },
+  {
+    "id": "cianocobalamina_vit_b12",
+    "name": "Cianocobalamina (Vit. B12)",
+    "group": "09.00 MEDICAMENTOS USADOS EN TRASTORNOS SANGUÍNEOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "0,1 mg/mL amp. 1 mL",
+        "concentration": "0.1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 0.1,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Complejo B"
+      }
+    ]
+  },
+  {
+    "id": "ciclobenzaprina",
+    "name": "Ciclobenzaprina",
+    "group": "01.00 MEDICAMENTOS USADOS EN ANESTESIA Y GASES MEDICINALES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "ciprofloxacino",
+    "name": "Ciprofloxacino",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "citalopram",
+    "name": "Citalopram",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "20 mg",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "claritromicina",
+    "name": "Claritromicina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa es eritromicina. No existe jarabe.  Se liminó de linea principal"
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "250 mg/5 mL",
+        "concentration": "250 mg / 5 mL",
+        "mgPerMl": 50.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "clindamicina",
+    "name": "Clindamicina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Capsulas",
+        "presentation": "600 mg",
+        "concentration": "600 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 600.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Uso odontológico"
+      }
+    ]
+  },
+  {
+    "id": "clofazimina",
+    "name": "Clofazimina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud.  Considerar la abreviación : MDR : MultiDrogo resistente"
+      }
+    ]
+  },
+  {
+    "id": "clonazepam",
+    "name": "Clonazepam",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "0,5 mg o 2 mg",
+        "concentration": "0.5 mg + 2 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 0.5,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Recordar protocolo Uso BDZ"
+      }
+    ]
+  },
+  {
+    "id": "clopidogrel",
+    "name": "Clopidogrel",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "75 mg",
+        "concentration": "75 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 75.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 8 comprimidos alternativa cm 300 mg"
+      }
+    ]
+  },
+  {
+    "id": "clorfenamina",
+    "name": "Clorfenamina",
+    "group": "03.00 MEDICAMENTOS ANTIALÉRGICOS Y USADOS EN EL TRATAMIENTO DE LA ANAFILAXIA",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "4 mg",
+        "concentration": "4 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 4.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "10 mg/mL amp. 1 mL",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "clorhexidina",
+    "name": "Clorhexidina",
+    "group": "14.00 DESINFECTANTES Y ANTISÉPTICOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Solución colutorio",
+        "presentation": "0.12%",
+        "concentration": "0.12%",
+        "mgPerMl": 1.2,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 0.12,
+        "notes": "USO DENTAL"
+      },
+      {
+        "kind": "otro",
+        "forma": "Solución acuosa jabonosa",
+        "presentation": "0.02",
+        "concentration": "0.02",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "clorpromazina_clorhidrato",
+    "name": "Clorpromazina clorhidrato",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "25 mg/2 mL",
+        "concentration": "25 mg / 2 mL",
+        "mgPerMl": 12.5,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 ampollas. Como opción haloperidol sol. Inyecatable 5 mg/mL"
+      }
+    ]
+  },
+  {
+    "id": "clotrimazol",
+    "name": "Clotrimazol",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "topico",
+        "forma": "Crema",
+        "presentation": "0.01",
+        "concentration": "0.01",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Óvulos",
+        "presentation": "100 mg o 500 mg",
+        "concentration": "100 mg + 500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cloxacilina_sodica",
+    "name": "Cloxacilina sódica",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Opcional Flucloxacilina"
+      }
+    ]
+  },
+  {
+    "id": "complejo_vitaminico_b",
+    "name": "Complejo vitamínico B",
+    "group": "09.00 MEDICAMENTOS USADOS EN TRASTORNOS SANGUÍNEOS",
+    "presentations": [
+      {
+        "kind": "inyectable",
+        "forma": "Solución inyectable",
+        "presentation": "Según formulación",
+        "concentration": "Según formulación",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cotrimoxazol_sulfametoxazol_trimetoprim",
+    "name": "Cotrimoxazol (sulfametoxazol/trimetoprim)",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "800 mg + 160 mg",
+        "concentration": "800 mg + 160 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 800.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "200 mg + 40 mg/5 mL o 400 mg + 80 mg/5 mL",
+        "concentration": "40 mg / 5 mL",
+        "mgPerMl": 8.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "dapagliflozina",
+    "name": "Dapagliflozina",
+    "group": "nan",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Todo paciente >15 años, ERC3 VFG entre 30 y 60 o ERC4 VFG entre 20 y 30 o diagnóstico conformado ICC."
+      }
+    ]
+  },
+  {
+    "id": "deltametrina_butoxido_de_piperonilo",
+    "name": "Deltametrina + butóxido de piperonilo",
+    "group": "12.00 MEDICAMENTOS USADOS EN DERMATOLOGÍA",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Shampoo",
+        "presentation": "0,02 g/100 mL deltametrina (10%) + 2,5 g/100 mL butóxido de piperonilo",
+        "concentration": "10.0%",
+        "mgPerMl": 100.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 10.0,
+        "notes": "alternativa decametrina /butoxido de piperonilo"
+      }
+    ]
+  },
+  {
+    "id": "desloratadina",
+    "name": "Desloratadina",
+    "group": "03.00 MEDICAMENTOS ANTIALÉRGICOS Y USADOS EN EL TRATAMIENTO DE LA ANAFILAXIA",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "5 mg",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Considerar disponibilidad continua o permanente."
+      }
+    ]
+  },
+  {
+    "id": "dexametasona",
+    "name": "Dexametasona",
+    "group": "03.00 MEDICAMENTOS ANTIALÉRGICOS Y USADOS EN EL TRATAMIENTO DE LA ANAFILAXIA",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "4 mg/mL amp. 1 mL",
+        "concentration": "4 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 4.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "4 mg",
+        "concentration": "4 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 4.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "5 mg/mL amp. 1 mL",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "5 mg",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "diazepam",
+    "name": "Diazepam",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Recordar protocolo Uso BDZ"
+      }
+    ]
+  },
+  {
+    "id": "diclofenaco_sodico",
+    "name": "Diclofenaco Sódico",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "75 mg amp / 3 mL",
+        "concentration": "75 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 75.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa Ketorolaco  inyectable 30 mg/ml"
+      },
+      {
+        "kind": "supositorio",
+        "forma": "Supositorio",
+        "presentation": "12,5 mg",
+        "concentration": "12.5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 12.5,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "didrogesterona_estradiol",
+    "name": "Didrogesterona/ Estradiol",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimido",
+        "presentation": "5 mg / 1 mg",
+        "concentration": "5 mg + 1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "TRH"
+      }
+    ]
+  },
+  {
+    "id": "digoxina",
+    "name": "Digoxina",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "0,25 mg",
+        "concentration": "0.25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 0.25,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "disulfiram",
+    "name": "Disulfiram",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "domperidona",
+    "name": "Domperidona",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Sale del arsenal Metoclopramida clorhidrato formulacion oral por antecedentes de efectos extrapiramidales,  algunas de ellas graves, lo que provocó la advertencia de la autoridad sanitaria, emitidos en Agosto 2013 y reforzados en los equipos internos de Farmacovigilancia. Tambien sale domperidona Gotas ."
+      }
+    ]
+  },
+  {
+    "id": "duloxetina",
+    "name": "Duloxetina",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "30 mg",
+        "concentration": "30 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 30.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "enalapril",
+    "name": "Enalapril",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "enema_rectal",
+    "name": "Enema rectal",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "FCO",
+        "presentation": "4,4 gr",
+        "concentration": "4,4 gr",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "epinefrina_clorhidrato",
+    "name": "Epinefrina clorhidrato",
+    "group": "03.00 MEDICAMENTOS ANTIALÉRGICOS Y USADOS EN EL TRATAMIENTO DE LA ANAFILAXIA",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "1 mg/mL amp. 1 mL",
+        "concentration": "1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "espironolactona",
+    "name": "Espironolactona",
+    "group": "15.00 DIURÉTICOS DEL ASA TIAZIDICOS Y AHORRADORES DE POTASIO",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "25 mg",
+        "concentration": "25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 25.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "estradiol_micronizado",
+    "name": "Estradiol micronizado",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimido recubierto",
+        "presentation": "1 mg",
+        "concentration": "1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "TRH"
+      },
+      {
+        "kind": "otro",
+        "forma": "Gel",
+        "presentation": "0,5 mg",
+        "concentration": "0.5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 0.5,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "TRH"
+      }
+    ]
+  },
+  {
+    "id": "eszopiclona",
+    "name": "Eszopiclona",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "3 mg",
+        "concentration": "3 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 3.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "SOLO COSAM"
+      }
+    ]
+  },
+  {
+    "id": "etambutol_clorhidrato",
+    "name": "Etambutol clorhidrato",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 y/o 400 mg",
+        "concentration": "400 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 400.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "etambutol_isoniazida_pirazinamida_rifampicina",
+    "name": "Etambutol/Isoniazida/Pirazinamida/  Rifampicina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "275 mg /75 mg / 400 mg / 150 mg",
+        "concentration": "275 mg + 75 mg + 400 mg + 150 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 275.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "etinilestradiol_30_mcg_levonorgestrel_150_mcg",
+    "name": "Etinilestradiol 30 mcg/Levonorgestrel 150 mcg,",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "28 grageas",
+        "concentration": "28 grageas",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "ACO"
+      }
+    ]
+  },
+  {
+    "id": "etonorgestrel",
+    "name": "Etonorgestrel",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Implante subdérmico",
+        "presentation": "68 mg",
+        "concentration": "68 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 68.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "IMPLANON"
+      }
+    ]
+  },
+  {
+    "id": "famotidina",
+    "name": "Famotidina",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "20 mg y/o 40 mg",
+        "concentration": "20 mg + 40 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa : Ranitidina comprimidos"
+      }
+    ]
+  },
+  {
+    "id": "fenitoina",
+    "name": "Fenitoína",
+    "group": "05.00 ANTICONVULSIVANTES Y ANTIEPILÉPTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos de liberación rápida",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "fenobarbital",
+    "name": "Fenobarbital",
+    "group": "05.00 ANTICONVULSIVANTES Y ANTIEPILÉPTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "15 mg",
+        "concentration": "15 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 15.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "fierro_elemental",
+    "name": "Fierro elemental",
+    "group": "09.00 MEDICAMENTOS USADOS EN TRASTORNOS SANGUÍNEOS",
+    "presentations": [
+      {
+        "kind": "gotas",
+        "forma": "Sol. Gotas orales",
+        "presentation": "25 o 50 mg/mL",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Sulfato ferroso Gotas orales"
+      }
+    ]
+  },
+  {
+    "id": "fierro_vitaminado",
+    "name": "Fierro vitaminado",
+    "group": "09.00 MEDICAMENTOS USADOS EN TRASTORNOS SANGUÍNEOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas o comprimidos",
+        "presentation": "Hierro activo +  vitaminas",
+        "concentration": "Hierro activo +  vitaminas",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "fitomenadiona_vit_k",
+    "name": "Fitomenadiona (Vit. K)",
+    "group": "23.00 VITAMINAS Y OTROS NUTRIENTES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. inyectable",
+        "presentation": "1 mg/mL o 10 mg/mL",
+        "concentration": "1 mg + 10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "flucloxacilina",
+    "name": "Flucloxacilina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Opcional: Cloxacilina"
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "250 mg/5 mL",
+        "concentration": "250 mg / 5 mL",
+        "mgPerMl": 50.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "flumazenil",
+    "name": "Flumazenil",
+    "group": "04.00 ANTÍDOTOS Y OTRAS SUSTANCIAS USADAS EN EL TRATAMIENTO DE INTOXICACIONES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. inyectable",
+        "presentation": "0,5 mg/5 mL",
+        "concentration": "0.5 mg / 5 mL",
+        "mgPerMl": 0.1,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 3 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "fluoruro_de_sodio_0_05",
+    "name": "Fluoruro de sodio 0.05%",
+    "group": "14.00 DESINFECTANTES Y ANTISÉPTICOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Solución colutorio",
+        "presentation": "0.05 %",
+        "concentration": "0.05%",
+        "mgPerMl": 0.5,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 0.05,
+        "notes": "Dental"
+      }
+    ]
+  },
+  {
+    "id": "fluoxetina",
+    "name": "Fluoxetina",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "20 mg",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "fluticasona",
+    "name": "Fluticasona",
+    "group": "21.00 MEDICAMENTOS QUE ACTUAN EN EL APARATO RESPIRATORIO",
+    "presentations": [
+      {
+        "kind": "inhalador",
+        "forma": "Inhalador",
+        "presentation": "125 mcg",
+        "concentration": "125 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 125.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "fluticasona_salmeterol",
+    "name": "Fluticasona + salmeterol",
+    "group": "21.00 MEDICAMENTOS QUE ACTUAN EN EL APARATO RESPIRATORIO",
+    "presentations": [
+      {
+        "kind": "inhalador",
+        "forma": "Inhalador",
+        "presentation": "250 mcg + 25 mcg/dosis",
+        "concentration": "250 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 250.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Uso adulto. Otra alternativa es Budesonida/Formoterol 160/4,5 ó Mometasona/Formoterol 100/5"
+      },
+      {
+        "kind": "inhalador",
+        "forma": "Inhalador",
+        "presentation": "125 mcg + 25 mcg/dosis",
+        "concentration": "125 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 125.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Uso especialista; Uso infantil. Otra alternativa es Budesonida/Formoterol 80/4,5"
+      }
+    ]
+  },
+  {
+    "id": "furosemida",
+    "name": "Furosemida",
+    "group": "15.00 DIURÉTICOS DEL ASA TIAZIDICOS Y AHORRADORES DE POTASIO",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "40 mg",
+        "concentration": "40 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 40.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "20 mg/mL amp. 1 mL",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 3 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "gemfibrozilo",
+    "name": "Gemfibrozilo",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "300 mg o 600 mg",
+        "concentration": "300 mg + 600 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 300.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "gentamicina_sulfato",
+    "name": "Gentamicina sulfato",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "80 mg/ 2 mL, amp 2 mL",
+        "concentration": "80 mg / 2 mL",
+        "mgPerMl": 40.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "glibenclamida",
+    "name": "Glibenclamida",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "5 mg",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "glicerina",
+    "name": "Glicerina",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "supositorio",
+        "forma": "Ovulo-Supositorio",
+        "presentation": "2,5 mg",
+        "concentration": "2.5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 2.5,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "glucosa",
+    "name": "Glucosa",
+    "group": "22.00 MEDICAMENTOS UTILIZADOS PARA CORREGIR PERTURBACIONES DEL MEDIO INTERNO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "5% o 10% 250 mL o 500 mL",
+        "concentration": "5.0%",
+        "mgPerMl": 50.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 5.0,
+        "notes": "CP: 3 matraces 5% de 500 mL"
+      }
+    ]
+  },
+  {
+    "id": "glucosa_hipertonica",
+    "name": "Glucosa hipertónica",
+    "group": "22.00 MEDICAMENTOS UTILIZADOS PARA CORREGIR PERTURBACIONES DEL MEDIO INTERNO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "30% 20 mL",
+        "concentration": "30.0%",
+        "mgPerMl": 300.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 30.0,
+        "notes": "CP: 3 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "haloperidol",
+    "name": "Haloperidol",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "1 mg",
+        "concentration": "1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "5 mg",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "5 mg/mL",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 ampollas. Opción a clorpromazina sol. Inyectable 25 mg/2 mL"
+      }
+    ]
+  },
+  {
+    "id": "hidralazina",
+    "name": "Hidralazina",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Habiendo inconvenientes de abastecimiento en el mercado, se debe analizar localmente su continuidad en el arsenal  o cambio del medicamento si corresponde."
+      }
+    ]
+  },
+  {
+    "id": "hidroclorotiazida",
+    "name": "Hidroclorotiazida",
+    "group": "15.00 DIURÉTICOS DEL ASA TIAZIDICOS Y AHORRADORES DE POTASIO",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "hidrocortisona_succinato",
+    "name": "Hidrocortisona succinato",
+    "group": "03.00 MEDICAMENTOS ANTIALÉRGICOS Y USADOS EN EL TRATAMIENTO DE LA ANAFILAXIA",
+    "presentations": [
+      {
+        "kind": "inyectable",
+        "forma": "Polvo para solución Inyectable",
+        "presentation": "Frasco ampolla 100 mg o 500 mg",
+        "concentration": "100 mg + 500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Aquella comuna que decidiera incorporar en el Carro de Paro es decisión local revisar de acuerdo a GUIA MINSAL"
+      }
+    ]
+  },
+  {
+    "id": "ibuprofeno",
+    "name": "Ibuprofeno",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "200 mg/5mL",
+        "concentration": "200 mg / 5 mL",
+        "mgPerMl": 40.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "400 mg",
+        "concentration": "400 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 400.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "insulina_cristalina",
+    "name": "Insulina Cristalina",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "100 UI/mL, frasco 10 mL",
+        "concentration": "100 UI/1 mL",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": 100.0,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "insulina_humana_nph",
+    "name": "Insulina Humana NPH",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "100 UI/mL, frasco 10 mL",
+        "concentration": "100 UI/1 mL",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": 100.0,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "ipratropio_bromuro",
+    "name": "Ipratropio bromuro",
+    "group": "21.00 MEDICAMENTOS QUE ACTUAN EN EL APARATO RESPIRATORIO",
+    "presentations": [
+      {
+        "kind": "inhalador",
+        "forma": "Inhalador",
+        "presentation": "20 mcg/dosis",
+        "concentration": "20 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 20.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "ipratropio_bromuro_fenoterol",
+    "name": "Ipratropio bromuro + fenoterol",
+    "group": "21.00 MEDICAMENTOS QUE ACTUAN EN EL APARATO RESPIRATORIO",
+    "presentations": [
+      {
+        "kind": "gotas",
+        "forma": "Solución para nebulizar",
+        "presentation": "0,25 mg + 0,5 mg/20 gotas",
+        "concentration": "0.25 mg + 0.5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 0.25,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Solo en caso que no permita administración por inhalación"
+      }
+    ]
+  },
+  {
+    "id": "isoniazida",
+    "name": "Isoniazida",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 y/0 300 mg",
+        "concentration": "300 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 300.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos dispersables",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      },
+      {
+        "kind": "jarabe",
+        "forma": "Jarabe o suspension oral",
+        "presentation": "200 mg/5mL frasco de 100 a 150 mL. Puede contener hasta 50 mg de piridoxina",
+        "concentration": "200 mg / 5 mL",
+        "mgPerMl": 40.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      },
+      {
+        "kind": "inyectable",
+        "forma": "Solución inyectable o polvo liofilizado + solvente para administración",
+        "presentation": "300 mg",
+        "concentration": "300 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 300.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "isosorbide_dinitrato",
+    "name": "Isosorbide dinitrato",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 comprimidos"
+      }
+    ]
+  },
+  {
+    "id": "ketoprofeno",
+    "name": "Ketoprofeno",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "ketorolaco",
+    "name": "Ketorolaco",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "30 mg/mL",
+        "concentration": "30 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 30.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 o 30 mg",
+        "concentration": "30 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 30.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "lactulosa",
+    "name": "Lactulosa",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral/Sobre",
+        "presentation": "0.65",
+        "concentration": "0.65",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "lamotrigina",
+    "name": "Lamotrigina",
+    "group": "05.00 ANTICONVULSIVANTES Y ANTIEPILÉPTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "lanatosido_c",
+    "name": "Lanatósido C",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "0,4 mg/2 mL",
+        "concentration": "0.4 mg / 2 mL",
+        "mgPerMl": 0.2,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 2  - 5  ampollas"
+      }
+    ]
+  },
+  {
+    "id": "levetiracetam",
+    "name": "Levetiracetam",
+    "group": "05.00 ANTICONVULSIVANTES Y ANTIEPILÉPTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "1000 mg",
+        "concentration": "1000 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1000.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "100 mg/mL",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "levodopa_benserazida",
+    "name": "Levodopa + Benserazida",
+    "group": "08.00 ANTIPARKINSONIANOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "200 mg + 50 mg",
+        "concentration": "200 mg + 50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 200.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "levodopa_carbidopa",
+    "name": "Levodopa + Carbidopa",
+    "group": "08.00 ANTIPARKINSONIANOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "250 mg + 25 mg",
+        "concentration": "250 mg + 25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 250.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "levonorgestrel",
+    "name": "Levonorgestrel",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "0,75 mg o 1,5 mg",
+        "concentration": "0.75 mg + 1.5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 0.75,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Sistema Intrauterino Medicado (SIU)",
+        "presentation": "20 ug/24 hrs",
+        "concentration": "20 ug/24 hrs",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Mirena (R) (SUJETO A CAPACITACION )"
+      },
+      {
+        "kind": "otro",
+        "forma": "Implante subdérmico",
+        "presentation": "75 mg",
+        "concentration": "75 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 75.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Jadelle (R) (SUJETO A CAPACITACION )"
+      }
+    ]
+  },
+  {
+    "id": "levonorgestrel_30_mcg",
+    "name": "Levonorgestrel 30 mcg",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "28 ó 35 grageas",
+        "concentration": "28 ó 35 grageas",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "PURO"
+      }
+    ]
+  },
+  {
+    "id": "levotiroxina",
+    "name": "Levotiroxina",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mcg",
+        "concentration": "50 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 50.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mcg",
+        "concentration": "100 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 100.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "lidocaina_clorhidrato",
+    "name": "Lidocaína clorhidrato",
+    "group": "01.00 MEDICAMENTOS USADOS EN ANESTESIA Y GASES MEDICINALES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. inyectable",
+        "presentation": "2% amp. 2 mL, 5 mL  o 10 mL",
+        "concentration": "2.0%",
+        "mgPerMl": 20.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 2.0,
+        "notes": "CP: 5 ampollas de 5 mL"
+      },
+      {
+        "kind": "otro",
+        "forma": "Carpule",
+        "presentation": "2% con vasoconstrictor",
+        "concentration": "2.0%",
+        "mgPerMl": 20.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 2.0,
+        "notes": "Vasoconstrictor debe ser acordado en Comites de Farmacia locales. Alternativa /mepivacacina"
+      }
+    ]
+  },
+  {
+    "id": "linezolid",
+    "name": "Linezolid",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "600 mg",
+        "concentration": "600 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 600.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud.  Considerar la abreviación : MDR : MultiDrogo resistente"
+      }
+    ]
+  },
+  {
+    "id": "loratadina",
+    "name": "Loratadina",
+    "group": "03.00 MEDICAMENTOS ANTIALÉRGICOS Y USADOS EN EL TRATAMIENTO DE LA ANAFILAXIA",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "lorazepam",
+    "name": "Lorazepam",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "2 mg",
+        "concentration": "2 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 2.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "losartan",
+    "name": "Losartán",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "mebendazol",
+    "name": "Mebendazol",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "POR LLEGAR*"
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión",
+        "presentation": "100 mg/5 mL",
+        "concentration": "100 mg / 5 mL",
+        "mgPerMl": 20.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "POR LLEGAR*"
+      }
+    ]
+  },
+  {
+    "id": "medroxiprogesterona_acetato_estradiol_cipionato",
+    "name": "Medroxiprogesterona Acetato/estradiol cipionato",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. inyectable",
+        "presentation": "25 mg/5 mg amp. 0,5 mL",
+        "concentration": "25 mg + 5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 25.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "NOVAFEM"
+      }
+    ]
+  },
+  {
+    "id": "medroxiprogesterona_acetato",
+    "name": "Medroxiprogesterona acetato",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Jeringa prellenada",
+        "presentation": "150 mg/mL",
+        "concentration": "150 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 150.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Jeringa prellenada",
+        "presentation": "104 mg /0.65 mL",
+        "concentration": "104 mg / 0.65 mL",
+        "mgPerMl": 160.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "SAYANA"
+      }
+    ]
+  },
+  {
+    "id": "metamizol_sodico",
+    "name": "Metamizol sódico",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "1 g/2 ml",
+        "concentration": "1 g/2 ml",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "supositorio",
+        "forma": "Supositorio",
+        "presentation": "250 mg",
+        "concentration": "250 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 250.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "300 mg",
+        "concentration": "300 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 300.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "metformina",
+    "name": "Metformina",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos Liberación prolongada",
+        "presentation": "1000 mg",
+        "concentration": "1000 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1000.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "850 mg",
+        "concentration": "850 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 850.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "metildopa",
+    "name": "Metildopa",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "250 mg",
+        "concentration": "250 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 250.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Uso UNACESS / continuidad de la atención POR LLEGAR*"
+      }
+    ]
+  },
+  {
+    "id": "metilfenidato",
+    "name": "Metilfenidato",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "metoclopramida_clorhidrato",
+    "name": "Metoclopramida clorhidrato",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "10 mg/2 mL",
+        "concentration": "10 mg / 2 mL",
+        "mgPerMl": 5.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "metronidazol",
+    "name": "Metronidazol",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Óvulos",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión",
+        "presentation": "125 mg/5 mL",
+        "concentration": "125 mg / 5 mL",
+        "mgPerMl": 25.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "250 mg y/o 500 mg",
+        "concentration": "250 mg + 500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 250.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "miconazol",
+    "name": "Miconazol",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Gel oral",
+        "presentation": "20 mg",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa: Nistaina ungüento topico"
+      }
+    ]
+  },
+  {
+    "id": "midazolam",
+    "name": "Midazolam",
+    "group": "01.00 MEDICAMENTOS USADOS EN ANESTESIA Y GASES MEDICINALES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "5 mg/mL o 15 mg/3 mL",
+        "concentration": "15 mg / 3 mL",
+        "mgPerMl": 5.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 2 Ampollas"
+      }
+    ]
+  },
+  {
+    "id": "mirtazapina",
+    "name": "Mirtazapina",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "15 o 30 mg",
+        "concentration": "30 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 30.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "USO COSAM"
+      }
+    ]
+  },
+  {
+    "id": "morfina",
+    "name": "Morfina",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "gotas",
+        "forma": "Sol. Gotas orales",
+        "presentation": "20 mg/mL",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "10 mg/mL",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 2 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "n_acetilcisteina",
+    "name": "N -  Acetilcisteína",
+    "group": "04.00 ANTÍDOTOS Y OTRAS SUSTANCIAS USADAS EN EL TRATAMIENTO DE INTOXICACIONES",
+    "presentations": [
+      {
+        "kind": "solucion_oral",
+        "forma": "Solucion oral",
+        "presentation": "100 mg/ mL",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Según protocolo, intoxicación por Paracetamol"
+      }
+    ]
+  },
+  {
+    "id": "nistatina",
+    "name": "Nistatina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Óvulos",
+        "presentation": "100.000 UI",
+        "concentration": "100.000 UI",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "POR LLEGAR*"
+      },
+      {
+        "kind": "suspension",
+        "forma": "suspensión oral",
+        "presentation": "100.000 U.I.",
+        "concentration": "100.000 U.I.",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "POR LLEGAR*"
+      }
+    ]
+  },
+  {
+    "id": "nitrofurantoina_macrocristales",
+    "name": "Nitrofurantoína macrocristales",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "norestisterona_enantato_estradiol_valerianato",
+    "name": "Norestisterona enantato/estradiol valerianato",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. inyectable",
+        "presentation": "50 mg/5 mg amp. 1 mL",
+        "concentration": "50 mg + 5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "MESYGINA"
+      }
+    ]
+  },
+  {
+    "id": "omeprazol",
+    "name": "Omeprazol",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas",
+        "presentation": "20 mg",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Uso racional y seguro reforzar protocolizando"
+      }
+    ]
+  },
+  {
+    "id": "ondansentron",
+    "name": "Ondansentrón",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "8 mg",
+        "concentration": "8 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 8.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "otro",
+        "forma": "Ampollas",
+        "presentation": "8-4 mg",
+        "concentration": "4 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 4.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Ver alternativa para continuidad con EGC/CPU"
+      }
+    ]
+  },
+  {
+    "id": "p_p_d_2_u_t_0_1_ml_o_5_u_t_0_1_ml",
+    "name": "P.P.D. 2 U.T./0,1 ML O 5 U.T./0,1 ML",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "ENVASADO EN FRASCO AMPOLLA 10 A 15 DOSIS",
+        "presentation": "2 U.T/0,1 mL o 5 U.T/O,1 mL",
+        "concentration": "2 U.T/0,1 mL o 5 U.T/O,1 mL",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "paracetamol",
+    "name": "Paracetamol",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "supositorio",
+        "forma": "Supositorio",
+        "presentation": "125 mg",
+        "concentration": "125 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 125.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "80 mg ó 100 mg ó 160 mg",
+        "concentration": "80 mg + 100 mg + 160 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 80.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "gotas",
+        "forma": "Sol. Gotas orales",
+        "presentation": "100 mg/mL",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "pargeverina",
+    "name": "Pargeverina",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "5 mg/mL",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "En arsenal SAPU puede haber pargeverina y/o pargeverina + metamizol."
+      }
+    ]
+  },
+  {
+    "id": "paroxetina",
+    "name": "Paroxetina",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "20 mg",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "pirazinamida",
+    "name": "Pirazinamida",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "piridoxima_clorhidrato_vit_b6",
+    "name": "Piridoxima clorhidrato (Vit. B6)",
+    "group": "23.00 VITAMINAS Y OTROS NUTRIENTES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. inyectable",
+        "presentation": "100 mg/mL amp. 1 mL",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Complejo B"
+      }
+    ]
+  },
+  {
+    "id": "piridoxina",
+    "name": "Piridoxina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "10 - 50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "potasio_cloruro",
+    "name": "Potasio cloruro",
+    "group": "22.00 MEDICAMENTOS UTILIZADOS PARA CORREGIR PERTURBACIONES DEL MEDIO INTERNO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "10% / 10 mL",
+        "concentration": "10.0%",
+        "mgPerMl": 100.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 10.0,
+        "notes": "CP: 3 ampollas de 10 mL"
+      }
+    ]
+  },
+  {
+    "id": "pramipexol",
+    "name": "Pramipexol",
+    "group": "08.00 ANTIPARKINSONIANOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "0,25 mg",
+        "concentration": "0.25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 0.25,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "1 mg",
+        "concentration": "1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "prednisona",
+    "name": "Prednisona",
+    "group": "03.00 MEDICAMENTOS ANTIALÉRGICOS Y USADOS EN EL TRATAMIENTO DE LA ANAFILAXIA",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "20 mg",
+        "concentration": "20 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 20.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "5 mg",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "En arsenal SAPU puede haber prednisona 5 mg y/o 20 mg"
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "20 mg/5mL",
+        "concentration": "20 mg / 5 mL",
+        "mgPerMl": 4.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "pregabalina",
+    "name": "Pregabalina",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "75 mg",
+        "concentration": "75 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 75.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "primidona",
+    "name": "Primidona",
+    "group": "05.00 ANTICONVULSIVANTES Y ANTIEPILÉPTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "250 mg",
+        "concentration": "250 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 250.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Se deriva desde el secundario"
+      }
+    ]
+  },
+  {
+    "id": "progesterona_micronizada",
+    "name": "Progesterona micronizada",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsula",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "TRH"
+      }
+    ]
+  },
+  {
+    "id": "propranolol_clorhidrato",
+    "name": "Propranolol clorhidrato",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "1 mg/mL",
+        "concentration": "1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 3 ampollas"
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "40 o 10 mg",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Uso en migraña"
+      }
+    ]
+  },
+  {
+    "id": "quetiapina",
+    "name": "Quetiapina",
+    "group": "08.00 ANTIPARKINSONIANOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "25 mg",
+        "concentration": "25 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 25.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Quetiapina 100 mg solo con indicacion desde  especialidad o consultoría  GES 34 - 62 - 85"
+      }
+    ]
+  },
+  {
+    "id": "ranitidina",
+    "name": "Ranitidina",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "50 mg /2 mL",
+        "concentration": "50 mg / 2 mL",
+        "mgPerMl": 25.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa: Omeprazol INYECT 40 MG EV / Famotidina INYEC"
+      }
+    ]
+  },
+  {
+    "id": "rifampicina",
+    "name": "Rifampicina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas",
+        "presentation": "150 mg",
+        "concentration": "150 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 150.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      },
+      {
+        "kind": "suspension",
+        "forma": "Suspensión oral",
+        "presentation": "100 mg/5 mL",
+        "concentration": "100 mg / 5 mL",
+        "mgPerMl": 20.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      },
+      {
+        "kind": "suspension",
+        "forma": "Polvo para suspension inyectable",
+        "presentation": "600 mg",
+        "concentration": "600 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 600.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "rifampicina_isoniazida",
+    "name": "Rifampicina/Isoniazida",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Comprimidos o capsulas",
+        "presentation": "150 mg/75 mg",
+        "concentration": "150 mg + 75 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 150.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos dispersables",
+        "presentation": "75 mg/50 mg",
+        "concentration": "75 mg + 50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 75.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "rifampicina_isoniazida_pirazinamida",
+    "name": "Rifampicina/Isoniazida/Pirazinamida",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimido dispersable",
+        "presentation": "75 mg/50 mg/150 mg",
+        "concentration": "75 mg + 50 mg + 150 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 75.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "rifapentina",
+    "name": "Rifapentina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "150 mg",
+        "concentration": "150 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 150.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "rifapentina_isoniazida",
+    "name": "Rifapentina/Isoniazida",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Comprimido o capsula",
+        "presentation": "300 mg/300 mg",
+        "concentration": "300 mg + 300 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 300.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Medicamentos del Programa de TBC, la disponibilidad de cada uno, depende de la distribución que realiza el Ministerio de Salud a través de CENABAST para el  Servicio de Salud."
+      }
+    ]
+  },
+  {
+    "id": "ringer_lactato",
+    "name": "Ringer lactato",
+    "group": "22.00 MEDICAMENTOS UTILIZADOS PARA CORREGIR PERTURBACIONES DEL MEDIO INTERNO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Matraz",
+        "presentation": "(según fórmula) 250 mL ó 500 mL",
+        "concentration": "(según fórmula) 250 mL ó 500 mL",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 2 matraz"
+      }
+    ]
+  },
+  {
+    "id": "risperidona",
+    "name": "Risperidona",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "1 mg",
+        "concentration": "1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Derivaciones desde el nivel secundario"
+      }
+    ]
+  },
+  {
+    "id": "salbutamol",
+    "name": "Salbutamol",
+    "group": "21.00 MEDICAMENTOS QUE ACTUAN EN EL APARATO RESPIRATORIO",
+    "presentations": [
+      {
+        "kind": "inhalador",
+        "forma": "Inhalador",
+        "presentation": "100 mcg/dosis",
+        "concentration": "100 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 100.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "sales_para_la_rehidratacion_oral",
+    "name": "Sales para la rehidratación oral",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "suspension",
+        "forma": "Polvo para suspensión oral",
+        "presentation": "Sobre 90 mEq Sodio",
+        "concentration": "Sobre 90 mEq Sodio",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "suspension",
+        "forma": "Polvo para suspensión oral",
+        "presentation": "Sobre 60 mEq Sodio",
+        "concentration": "Sobre 60 mEq Sodio",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "salmeterol",
+    "name": "Salmeterol",
+    "group": "21.00 MEDICAMENTOS QUE ACTUAN EN EL APARATO RESPIRATORIO",
+    "presentations": [
+      {
+        "kind": "inhalador",
+        "forma": "Inhalador",
+        "presentation": "25 mcg/dosis",
+        "concentration": "25 mcg",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": 25.0,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "sertralina",
+    "name": "Sertralina",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg y / o 100 mg",
+        "concentration": "50 mg + 100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "sodio_cloruro",
+    "name": "Sodio cloruro",
+    "group": "22.00 MEDICAMENTOS UTILIZADOS PARA CORREGIR PERTURBACIONES DEL MEDIO INTERNO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Matraz",
+        "presentation": "0,9% 250 mL ó 500 mL",
+        "concentration": "0.9%",
+        "mgPerMl": 9.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 0.9,
+        "notes": "CP: 5 matraces"
+      },
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "0,9% / 20 mL",
+        "concentration": "0.9%",
+        "mgPerMl": 9.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 0.9,
+        "notes": "CP: 10 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "sulfato_de_magnesio",
+    "name": "Sulfato de magnesio",
+    "group": "22.00 MEDICAMENTOS UTILIZADOS PARA CORREGIR PERTURBACIONES DEL MEDIO INTERNO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol.Inyectable",
+        "presentation": "20%  / 10 mL y/ó  25% / 5 mL",
+        "concentration": "20.0%",
+        "mgPerMl": 200.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": 20.0,
+        "notes": "Cada comuna podrá disponer de uno, otro o ambas presentaciones"
+      }
+    ]
+  },
+  {
+    "id": "suxametonio_succinilcolina",
+    "name": "Suxametonio (succinilcolina)",
+    "group": "01.00 MEDICAMENTOS USADOS EN ANESTESIA Y GASES MEDICINALES",
+    "presentations": [
+      {
+        "kind": "inyectable",
+        "forma": "Polvo para solución inyectable",
+        "presentation": "100 mg/5 mL",
+        "concentration": "100 mg / 5 mL",
+        "mgPerMl": 20.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 2 polvos para solución inyectable"
+      }
+    ]
+  },
+  {
+    "id": "terbinafina",
+    "name": "Terbinafina",
+    "group": "06.00 ANTIINFECCIOSOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "250 mg",
+        "concentration": "250 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 250.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa Fluconazol cm 150 mg POR LLEGAR*"
+      }
+    ]
+  },
+  {
+    "id": "tiamina_clorhidrato_vit_b1",
+    "name": "Tiamina clorhidrato (Vit. B1)",
+    "group": "23.00 VITAMINAS Y OTROS NUTRIENTES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. inyectable",
+        "presentation": "30 mg/mL",
+        "concentration": "30 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 30.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Complejo B"
+      }
+    ]
+  },
+  {
+    "id": "tibolona",
+    "name": "Tibolona",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimido",
+        "presentation": "2,5 mg",
+        "concentration": "2.5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 2.5,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "TRH"
+      }
+    ]
+  },
+  {
+    "id": "tramadol_clorhidrato",
+    "name": "Tramadol clorhidrato",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "gotas",
+        "forma": "Sol. Gotas orales",
+        "presentation": "100 mg/mL",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "trazodona",
+    "name": "Trazodona",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "25 mg  y / o 100 mg",
+        "concentration": "25 mg + 100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 25.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "trihexifenidilo",
+    "name": "Trihexifenidilo",
+    "group": "08.00 ANTIPARKINSONIANOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "2 mg",
+        "concentration": "2 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 2.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "vaselina_liquida_esteril",
+    "name": "Vaselina líquida esteril",
+    "group": "24.00 MISCELÁNEOS",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol.Inyectable",
+        "presentation": "20 mL",
+        "concentration": "20 mL",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "vaselina_liquida_medicinal",
+    "name": "Vaselina líquida medicinal",
+    "group": "16.00 MEDICAMENTOS UTILIZADOS EN EL APARATO DIGESTIVO",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Aceite mineral",
+        "presentation": "1",
+        "concentration": "1",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Alternativa lactulosa suspensión oral"
+      }
+    ]
+  },
+  {
+    "id": "venlafaxina",
+    "name": "Venlafaxina",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "75 mg  XR",
+        "concentration": "75 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 75.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "verapamilo",
+    "name": "Verapamilo",
+    "group": "11.00 MEDICAMENTOS CARDIOVASCULARES",
+    "presentations": [
+      {
+        "kind": "otro",
+        "forma": "Sol. Inyectable",
+        "presentation": "5 mg/2 mL",
+        "concentration": "5 mg / 2 mL",
+        "mgPerMl": 2.5,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "CP: 5 ampollas"
+      }
+    ]
+  },
+  {
+    "id": "vildagliptina",
+    "name": "Vildagliptina",
+    "group": "17.00 HORMONAS Y OTROS MEDICAMENTOS ENDOCRINOS Y ANTICONCEPTIVOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "50 mg",
+        "concentration": "50 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 50.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "PACIENTES CON CRITERIOS: AM Y VFG <60"
+      }
+    ]
+  },
+  {
+    "id": "vitamina_zinc_sulfato",
+    "name": "Vitamina Zinc sulfato",
+    "group": "23.00 VITAMINAS Y OTROS NUTRIENTES",
+    "presentations": [
+      {
+        "kind": "gotas",
+        "forma": "Sol. Gotas orales",
+        "presentation": "5 mg/ ml",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Norma CHCC Prematuros con indicacion del hospital  Revisar indicación. POR LLEGAR*"
+      }
+    ]
+  },
+  {
+    "id": "vitaminas_a_c_y_d",
+    "name": "Vitaminas A, C y D",
+    "group": "23.00 VITAMINAS Y OTROS NUTRIENTES",
+    "presentations": [
+      {
+        "kind": "gotas",
+        "forma": "Sol. Gotas orales",
+        "presentation": "General",
+        "concentration": "General",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "vtaminas_hierro",
+    "name": "Vtaminas + Hierro",
+    "group": "23.00 VITAMINAS Y OTROS NUTRIENTES",
+    "presentations": [
+      {
+        "kind": "capsula",
+        "forma": "Cápsulas o comprimidos",
+        "presentation": "Hierro activo +  vitaminas",
+        "concentration": "Hierro activo +  vitaminas",
+        "mgPerMl": null,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "zopiclona",
+    "name": "Zopiclona",
+    "group": "20.00 MEDICAMENTOS PSICOTERAPÉUTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "7.5 mg",
+        "concentration": "7.5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 7.5,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "COSAM"
+      }
+    ]
+  },
+  {
+    "id": "acido_acetil_salicilico",
+    "name": "Ácido acetil salicílico",
+    "group": "02.00 ANALGÉSICOS OPIÁCEOS, NO OPIÁCEOS, ANTIGOTOSOS Y ANTIRREUMÁTICOS NO ESTEROIDALES",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "100 mg",
+        "concentration": "100 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 100.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "acido_folico_vit_b9",
+    "name": "Ácido fólico (vit. B9)",
+    "group": "09.00 MEDICAMENTOS USADOS EN TRASTORNOS SANGUÍNEOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "1 mg",
+        "concentration": "1 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 1.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Tambien uso matrona"
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "5 mg",
+        "concentration": "5 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 5.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": "Tambien uso matrona"
+      }
+    ]
+  },
+  {
+    "id": "acido_valproico",
+    "name": "Ácido valproico",
+    "group": "05.00 ANTICONVULSIVANTES Y ANTIEPILÉPTICOS",
+    "presentations": [
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos",
+        "presentation": "200 mg",
+        "concentration": "200 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 200.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "comprimido",
+        "forma": "Comprimidos de liberación prolongada",
+        "presentation": "500 mg",
+        "concentration": "500 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 500.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "gotas",
+        "forma": "Sol. Gotas orales",
+        "presentation": "10 mg/gota",
+        "concentration": "10 mg",
+        "mgPerMl": null,
+        "mgPerUnit": 10.0,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      },
+      {
+        "kind": "solucion_oral",
+        "forma": "Solucion oral",
+        "presentation": "250 mg/5 mL",
+        "concentration": "250 mg / 5 mL",
+        "mgPerMl": 50.0,
+        "mgPerUnit": null,
+        "mcgPerUnit": null,
+        "uiPerMl": null,
+        "percent": null,
+        "notes": null
+      }
+    ]
+  }
+]

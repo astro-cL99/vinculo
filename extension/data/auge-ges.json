@@ -1,0 +1,1904 @@
+{
+  "version": "1.0.0",
+  "ultimaActualizacion": "2026-05-09",
+  "fuente": "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-auge/",
+  "total": 113,
+  "problemas": [
+    {
+      "id": "1A",
+      "nombre": "Insuficiencia Renal Crónica",
+      "metodologia": null,
+      "publicacion": "2005",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "enfermedad",
+        "riñones"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Insuficiencia-Renal-cronica-terminal.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "1A.1",
+      "nombre": "Trasplante Renal",
+      "metodologia": "GRADE",
+      "publicacion": "2019",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "enfermedad",
+        "riñones",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/trasplante-renal/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "1A.2",
+      "nombre": "Hemodiálisis",
+      "metodologia": "GRADE",
+      "publicacion": "2018",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "enfermedad",
+        "riñones",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/hemodialisis/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "1A.3",
+      "nombre": "Peritoneodiálisis",
+      "metodologia": "GRADE",
+      "publicacion": "2018",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "enfermedad",
+        "riñones",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/peritoneodialisis/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "1B",
+      "nombre": "Diálisis Peritoneal",
+      "metodologia": null,
+      "publicacion": "2005",
+      "actualizacion": "2010",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "enfermedad",
+        "dialisis"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Di%C3%A1lisis-Peritoneal.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "2",
+      "nombre": "Cardiopatías Congénitas Operables en menores de 15 años.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "corazon",
+        "cardiopatias",
+        "congenita",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/cardiopatias-congenitas-en-menores-de-15-anos/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "3",
+      "nombre": "Cáncer Cervico Uterino.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2019",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "cacu",
+        "canceres",
+        "utero",
+        "mujeres",
+        "femenino",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/cancer-cervico-uterino/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "4",
+      "nombre": "Alivio del Dolor por Cáncer Avanzado y Cuidados Paliativos",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2025",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/alivio-del-dolor-por-cancer-avanzado-y-cuidados-paliativos/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "5",
+      "nombre": "Infarto Agudo del Miocardio con Supredesnivel del Segmento ST",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2018",
+      "especialidad": "Enfermedad del Corazón y Cerebro",
+      "keywords": [
+        "corazon",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/infarto-agudo-del-miocardio/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "6",
+      "nombre": "Diabetes Mellitus tipo 1.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2025",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/diabetes-mellitus-tipo-1/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "7",
+      "nombre": "Diabetes Mellitus tipo 2.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2018/01/DIABETES-MELLITUS-TIPO-2-1.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "7.1",
+      "nombre": "Anexo Diabetes y Embarazo",
+      "metodologia": null,
+      "publicacion": "2014",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/GUIA-DIABETES-Y-EMBARAZO.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "8",
+      "nombre": "Cáncer de mama (mayores de 15 años).",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2023",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "mujeres",
+        "femenino"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/cancer-de-mama/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "9",
+      "nombre": "Disrafías Espinales.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "Disrafias",
+        "quirurgicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/disrafias-espinales/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "10",
+      "nombre": "Tratamiento Quirúrgico de la Escoliosis en personas menores de 25 años.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2019",
+      "especialidad": "Intervenciones Quirúrgicas",
+      "keywords": [
+        "quirurgico",
+        "quirurgicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/tratamiento-quirurgico-de-escoliosis-en-personas-menores-de-25-anos/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "11",
+      "nombre": "Tratamiento Quirúrgico de Cataratas Congénitas y Adquiridas.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Enfermedad de la visión",
+      "keywords": [
+        "quirurgico",
+        "congenitas",
+        "vision",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/tratamiento-quirurgico-de-cataratas-congenitas-y-adquiridas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "12",
+      "nombre": "Endoprótesis Total de Cadera, en personas de 65 años y más, con Artrosis de Cadera con Limitación Funcional Severa.",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2019",
+      "especialidad": "Salud del Adulto Mayor de 65",
+      "keywords": [
+        "cronicas",
+        "endoprotesis",
+        "limitacion",
+        "rehabilitacion"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/endoprotesis-total-de-cadera-en-personas-de-65-anos-y-mas-con-artrosis-de-cadera-con-limitacion-funcional-severa/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "13",
+      "nombre": "Fisura Labiopalatina",
+      "metodologia": null,
+      "publicacion": "2005",
+      "actualizacion": "2015",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "quirurgicas",
+        "labio"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/guia-FisuraLabioPalatina-2015-CM.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "14",
+      "nombre": "Cánceres (Menores de 15 años)",
+      "metodologia": null,
+      "publicacion": null,
+      "actualizacion": null,
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "infancia",
+        "infantil"
+      ],
+      "urls": [],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "14.1",
+      "nombre": "Linfoma y Tumores Sólidos en menores de 15 años",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2023",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "solidos",
+        "infantil",
+        "infancia"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/guias-de-practica-clinicas/linfoma-y-tumores-solidos-pediatricos/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "14.2",
+      "nombre": "Leucemia en menores de 15 años",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "infantil",
+        "infancia"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/leucemias-en-menores-de-15-anos/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "14.3",
+      "nombre": "Linfoma en menores de 15 años",
+      "metodologia": "GRADE",
+      "publicacion": "2025",
+      "actualizacion": null,
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "infantil",
+        "infancia"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/linfoma-en-menores-de-15-anos/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "15",
+      "nombre": "Esquizofrenia (tratamiento desde el primer episodio)",
+      "metodologia": null,
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Salud Mental",
+      "keywords": [],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2017/07/GPC_EQZ.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "16",
+      "nombre": "Cáncer de Testículo en personas de 15 años y más",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "testiculo",
+        "hombres",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/cancer-de-testiculos-en-personas-de-15-anos-y-mas/recomendaciones/%22"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "17",
+      "nombre": "Linfoma en personas de 15 años y más",
+      "metodologia": null,
+      "publicacion": null,
+      "actualizacion": null,
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "cancer"
+      ],
+      "urls": [],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "17.1",
+      "nombre": "Linfoma de Hodgkin",
+      "metodologia": "GRADE",
+      "publicacion": "2018",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "grade",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/linfoma-de-hodgkin-en-personas-de-15-anos-y-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "17.2",
+      "nombre": "Linfoma no Hodgkin",
+      "metodologia": "GRADE",
+      "publicacion": "2018",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "grade",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/linfoma-en-personas-de-15-anos-y-mas/linfoma-no-hodgkin/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "18",
+      "nombre": "Síndrome de la Inmunodeficiencia Adquirida VIH/SIDA",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2024",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "transmisibles",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/sindrome-de-la-inmunodeficiencia-adquirida-vih-sida/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "18.1",
+      "nombre": "Síndrome de la Inmunodeficiencia Adquirida VIH/SIDA - Pediátrico",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2019",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "transmisibles",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/sindrome-de-la-inmunodeficiencia-adquirida-vih-sida-pediatrico/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "19",
+      "nombre": "Infección Respiratoria Baja de manejo ambulatorio en menores de 5 años.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2024",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "infeccion"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/infeccion-respiratoria-aguda-ira-de-manejo-ambulatorio-en-personas-menores-de-5-anos/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "20",
+      "nombre": "Neumonía Adquirida en la Comunidad de Manejo Ambulatorio en personas de 65 años y más.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Enfermedades Respiratorias",
+      "keywords": [
+        "neumonia",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/neumonia-adquirida-en-la-comunidad-de-manejo-ambulatorio-en-mayores-de-65-anos-y-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "21",
+      "nombre": "Hipertensión Arterial Primaria o Esencial en personas de 15 años y más.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2018",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/hipertension-arterial-primaria-o-esencial-en-personas-de-15-anos-y-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "22",
+      "nombre": "Epilepsia no Refractaria en personas de 1 año y menores de 15 años",
+      "metodologia": null,
+      "publicacion": "2005",
+      "actualizacion": "2014",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "cronicas"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/GUIA-CLINICA_EPILEPSIA-NI%C3%91OS_web.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "23",
+      "nombre": "Salud Oral Integral para niños y niñas de 6 años",
+      "metodologia": null,
+      "publicacion": "2005",
+      "actualizacion": "2013",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "infancia",
+        "infantil",
+        "bucal"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Salud-Oral-Integral-ni%C3%B1os-y-ni%C3%B1as-6-a%C3%B1os.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "23.1",
+      "nombre": "Prevención y tratamiento de caries dental en niños y niñas con dentición primaria",
+      "metodologia": "GRADE",
+      "publicacion": "2018",
+      "actualizacion": null,
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "infancia",
+        "infantil",
+        "recien",
+        "prevencion",
+        "prematuro",
+        "mujeres",
+        "embarazo",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/temas-de-salud/orden-alfabetico/guias-clinicas-no-ges/guias-clinicas-no-ges-salud-bucal/prevencion-y-tratamiento-de-caries-dental-en-ninos-y-ninas-con-denticion-primaria/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "24",
+      "nombre": "Prevención del Parto Prematuro",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Parto, Prematurez y Enfermedades de niños y Recién nacidos",
+      "keywords": [
+        "infancia",
+        "infantil",
+        "recien",
+        "prevencion",
+        "prematuro",
+        "mujeres",
+        "embarazo",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/prevencion-del-parto-prematuro/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "25",
+      "nombre": "Trastornos de Generación del Impulso Cardíaco y su Conducción en personas de15 años y más, que requieren Marcapaso",
+      "metodologia": null,
+      "publicacion": "2007",
+      "actualizacion": "2011",
+      "especialidad": "Enfermedad del Corazón y Cerebro",
+      "keywords": [
+        "corazon",
+        "generacion",
+        "cardiaco",
+        "conduccion"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Trastornos-generaci%C3%B3n-impulso-card%C3%ADaco-en-personas-que-requieren-Marcapaso.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "26",
+      "nombre": "Colecistectomía Preventiva en adultos de 35 a 49 años",
+      "metodologia": null,
+      "publicacion": "2006",
+      "actualizacion": "2014",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "colecistemia",
+        "canceres"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/Colesistectomia-preventiva-adultos.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "27",
+      "nombre": "Cáncer Gástrico",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2025",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "gastrico",
+        "grade",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/cancer-gastrico/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "28",
+      "nombre": "Cáncer de Próstata en personas de 15 años y más.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2025",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "prostata",
+        "hombres",
+        "masculino",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/cancer-de-prostata/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "29",
+      "nombre": "Vicios de Refracción en personas de 65 años y más.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2017",
+      "especialidad": "Salud del Adulto Mayor de 65",
+      "keywords": [
+        "refraccion",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/vicios-de-refraccion-en-personas-de-65-anos-y-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "30",
+      "nombre": "Estrabismo en menores de 9 años.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2018",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "vision",
+        "ocular",
+        "ojo",
+        "grade",
+        "infantil"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/estrabismo-en-menores-de-9-anos/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "31",
+      "nombre": "Retinopatía Diabética.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2017",
+      "especialidad": "Enfermedad de la visión",
+      "keywords": [
+        "retinopatia",
+        "diabetica",
+        "vision",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/retinopatia-diabetica/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "32",
+      "nombre": "Desprendimiento de Retina Regmatógeno no Traumático.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2017",
+      "especialidad": "Enfermedad de la visión",
+      "keywords": [
+        "vision",
+        "regmatogeno",
+        "traumatico",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/desprendimiento-de-retina-no-regmatogeno/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "33",
+      "nombre": "Hemofilia.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2019",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/hemofilia/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "34",
+      "nombre": "Depresión en personas de 15 años y más.",
+      "metodologia": null,
+      "publicacion": "2006",
+      "actualizacion": "2013",
+      "especialidad": "Salud Mental",
+      "keywords": [
+        "depresion"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/GUIA-CLINICA-DEPRESION-15-Y-MAS.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "34.1",
+      "nombre": "Depresión en personas mayores de 15 años: Actualización en Psicoterapia",
+      "metodologia": null,
+      "publicacion": "2017",
+      "actualizacion": null,
+      "especialidad": "Salud Mental",
+      "keywords": [
+        "depresion",
+        "adulto",
+        "sicoterapia"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2017/07/GPC_depresion_psicoterapia.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "34.2",
+      "nombre": "Abordaje de la Depresión en mujeres con Cáncer de Mama",
+      "metodologia": null,
+      "publicacion": "2017",
+      "actualizacion": null,
+      "especialidad": "Salud Mental",
+      "keywords": [
+        "cancer",
+        "mujeres",
+        "depresion"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2017/07/GPC_depresion_en_cancer_de_mama.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "35",
+      "nombre": "Estudio, Manejo Médico y Quirúrgico de Pacientes con Crecimiento Prostático Benigno Sintomático.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2017",
+      "especialidad": "Intervenciones Quirúrgicas",
+      "keywords": [
+        "quirurgicas",
+        "prostatico",
+        "prostata",
+        "sintomatico",
+        "medico",
+        "hombres",
+        "masculino",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/estudio-manejo-medico-y-quirurgico-de-pacientes-con-crecimiento-prostatico-benigno-sintomatico/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "36",
+      "nombre": "Ayudas Técnicas para personas de 65 años y más.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2018",
+      "especialidad": "Salud del Adulto Mayor de 65",
+      "keywords": [
+        "tecnicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/ortesis-o-ayudas-tecnicas-para-personas-mayores-de-65-anos-y-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "37",
+      "nombre": "Ataque Cerebrovascular Isquémico del adulto (15 años y más).",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2018",
+      "especialidad": "Enfermedad del Corazón y Cerebro",
+      "keywords": [
+        "corazon",
+        "isquemico",
+        "no",
+        "trasmisibles",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/ataque-cerebrovascular-isquemico-en-personas-de-15-anos-y-mas/recomendaciones-2/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "38",
+      "nombre": "Enfermedad Pulmonar Obstructiva Crónica de Tratamiento Ambulatorio.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2019",
+      "especialidad": "Enfermedades Respiratorias",
+      "keywords": [
+        "cronica",
+        "epoc"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/enfermedad-pulmonar-obstructiva-cronica-de-tratamiento-ambulatorio/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "39",
+      "nombre": "Diagnóstico y Tratamiento del Asma en el menor de 15 años.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2017",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "diagnostico",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/asma-menores-15/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "40",
+      "nombre": "Síndrome de Dificultad Respiratoria en el Recién Nacido.",
+      "metodologia": "GRADE",
+      "publicacion": "2006",
+      "actualizacion": "2017",
+      "especialidad": "Parto, Prematurez y Enfermedades de niños y Recién nacidos",
+      "keywords": [
+        "infantil",
+        "infancia",
+        "recien",
+        "sindrome",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/sindrome-de-dificultad-respiratoria-en-el-recien-nacido/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "41",
+      "nombre": "Tratamiento Médico en personas de 55 años y más con Artrosis de Cadera y/o Rodilla Leve o Moderada.",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2018",
+      "especialidad": "Salud del Adulto Mayor de 65",
+      "keywords": [
+        "medico",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/tratamiento-medico-en-personas-de-55-anos-y-mas-con-artrosis-de-cadera-y-o-rodilla-leve-o-moderada/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "42",
+      "nombre": "Hemorragia Subaracnoídea a rotura de aneurismas cerebrales.",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2017",
+      "especialidad": "Enfermedad del Corazón y Cerebro",
+      "keywords": [
+        "corazon",
+        "subaracnoidea",
+        "cerebro",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/hemorragia-subaracnoidea-a-rotura-de-aneurismas-cerebrales/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "43",
+      "nombre": "Tumores Primarios del Sistema Nervioso Central en personas de 15 años o más.",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2026",
+      "especialidad": "Intervenciones Quirúrgicas",
+      "keywords": [
+        "quirurgicas",
+        "cerebro",
+        "grade",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/tumores-primarios-del-sistema-nervioso-central-en-personas-de-15-anos-o-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "44",
+      "nombre": "Hernia del Núcleo Pulposo Lumbar.",
+      "metodologia": null,
+      "publicacion": "2007",
+      "actualizacion": "2014",
+      "especialidad": "Intervenciones Quirúrgicas",
+      "keywords": [
+        "quirurgicas",
+        "nucleo"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/GPC-Hernia-Nucleo-Pulposo-Lumbar.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "45",
+      "nombre": "Leucemia en personas de 15 años y más",
+      "metodologia": null,
+      "publicacion": null,
+      "actualizacion": null,
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres"
+      ],
+      "urls": [],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "45.1",
+      "nombre": "Leucemia Aguda",
+      "metodologia": "GRADE",
+      "publicacion": "2018",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "grade",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/leucemia-en-personas-de-15-anos-y-mas/leucemia-aguda-recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "45.2",
+      "nombre": "Leucemia Crónica",
+      "metodologia": "GRADE",
+      "publicacion": "2018",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "grade",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/leucemia-en-personas-de-15-anos-y-mas/leucemia-cronica-recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "46",
+      "nombre": "Urgencia odontológica ambulatoria:Tratamiento de infecciones de origen dentario",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2019",
+      "especialidad": "Salud Oral",
+      "keywords": [
+        "odontologica",
+        "bucal",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/urgencia-odontologica-ambulatoria/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "46.1",
+      "nombre": "Manejo de Urgencia de los Traumatismos Dentoalveolares",
+      "metodologia": "GRADE",
+      "publicacion": null,
+      "actualizacion": "2023",
+      "especialidad": "Salud Oral",
+      "keywords": [
+        "odontologica",
+        "bucal",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/manejo-de-la-urgencia-de-traumatismos-dentoalveolares/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "47",
+      "nombre": "Salud Oral Integral para adultos de 60 años:Tratamiento y Rehabilitación Oral en Personas Adultas y Personas Mayores con Edentulismo Parcial o Total",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2018",
+      "especialidad": "Salud del Adulto Mayor de 65",
+      "keywords": [
+        "bucal",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/salud-oral-integral-para-adultos-de-60-anos/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "47.1",
+      "nombre": "Salud oral Integral para adultos de 60 años: Prevención y Tratamiento de Caries Radiculares",
+      "metodologia": "GRADE",
+      "publicacion": "2015",
+      "actualizacion": null,
+      "especialidad": "Salud del Adulto Mayor de 65",
+      "keywords": [
+        "prevencion",
+        "bucal",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/Salud-Oral-Integral-para-adultos-de-60-a%C3%B1os-radicular.pdf",
+        "http://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/Gu%C3%ADa-R%C3%A1pida-Salud-oral-integral-para-adultos-de-60.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "48",
+      "nombre": "Politraumatizado.",
+      "metodologia": null,
+      "publicacion": "2007",
+      "actualizacion": null,
+      "especialidad": "Accidentes Graves",
+      "keywords": [],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Politraumatizado.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "48.1",
+      "nombre": "Rehabilitación en Personas con Lesión Medular en Unidad de Paciente Crítico",
+      "metodologia": "GRADE",
+      "publicacion": "2019",
+      "actualizacion": null,
+      "especialidad": "Accidentes Graves",
+      "keywords": [
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/temas-de-salud/orden-alfabetico/guias-clinicas-no-ges/guias-clinicas-no-ges-discapacidad-y-rehabilitacion/rehabilitacion-en-personas-con-lesion-medular-en-unidad-de-paciente-critico/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "49",
+      "nombre": "Atención de Urgencia del Traumatismo Cráneoencefálico.",
+      "metodologia": null,
+      "publicacion": "2007",
+      "actualizacion": "2013",
+      "especialidad": "Accidentes Graves",
+      "keywords": [
+        "atencion",
+        "craneoencefalico"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Traumatismo-Cr%C3%A1neoencefalico.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "50",
+      "nombre": "Trauma Ocular.",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2017",
+      "especialidad": "Accidentes Graves",
+      "keywords": [
+        "vision",
+        "ojos",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/trauma-ocular-grave/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "51",
+      "nombre": "Fibrosis Quística.",
+      "metodologia": null,
+      "publicacion": "2007",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "quistica"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/?p=15216"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "51.1",
+      "nombre": "Fibrosis Quística - Aspectos Broncopulmonares",
+      "metodologia": "GRADE",
+      "publicacion": null,
+      "actualizacion": "2017",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "quistica",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/?p=13717"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "52",
+      "nombre": "Artritis Reumatoidea.",
+      "metodologia": null,
+      "publicacion": "2007",
+      "actualizacion": "2014",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronica"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/Artritis-Reumatoidea.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "53",
+      "nombre": "Consumo Perjudicial y Dependencia de Alcohol y Drogas en menores de 20 años",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2018",
+      "especialidad": "Salud Mental",
+      "keywords": [
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/consumo-perjudicial-y-dependencia-de-alcohol-y-otras-drogas-en-personas-menores-de-20-anos/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "54",
+      "nombre": "Analgesia del Parto.",
+      "metodologia": "GRADE",
+      "publicacion": "2007",
+      "actualizacion": "2019",
+      "especialidad": "Parto, Prematurez y Enfermedades de niños y Recién nacidos",
+      "keywords": [
+        "embarazo",
+        "mujeres",
+        "femenino",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/analgesia-del-parto/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "55",
+      "nombre": "Gran Quemado.",
+      "metodologia": null,
+      "publicacion": "2007",
+      "actualizacion": "2016",
+      "especialidad": "Accidentes Graves",
+      "keywords": [],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/04/GPC-GRAN-QUEMADO-FINAL-18-MARZO-2016_DIAGRAMADA.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "56",
+      "nombre": "Hipoacusia Bilateral en personas de 65 años y más que Requieren uso de Audífono.",
+      "metodologia": null,
+      "publicacion": "2007",
+      "actualizacion": "2013",
+      "especialidad": "Salud del Adulto Mayor de 65",
+      "keywords": [
+        "audifono",
+        "oido"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/Hipoacusia-bilateral-mayores-65-a%C3%B1os.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "57",
+      "nombre": "Retinopatía del Prematuro",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2018",
+      "especialidad": "Parto, Prematurez y Enfermedades de niños y Recién nacidos",
+      "keywords": [
+        "retinopatia",
+        "infancia",
+        "infantil",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/retinopatia-del-prematuro/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "58",
+      "nombre": "Displasia Broncopulmonar del Prematuro",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Enfermedades Respiratorias",
+      "keywords": [
+        "infancia",
+        "infantil",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/displasia-broncopulmonar-del-prematuro/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "59",
+      "nombre": "Hipoacusia Neurosensorial Bilateral del Prematuro",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2017",
+      "especialidad": "Parto, Prematurez y Enfermedades de niños y Recién nacidos",
+      "keywords": [
+        "infancia",
+        "infantil",
+        "oido",
+        "audicion",
+        "audición",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/hipoacusia-en-menores-de-4-anos/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "60",
+      "nombre": "Epilepsia en el adulto.",
+      "metodologia": "GRADE",
+      "publicacion": "2005",
+      "actualizacion": "2019",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/epilepsia-en-adultos/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "61",
+      "nombre": "Asma Bronquial en adultos.",
+      "metodologia": "GRADE",
+      "publicacion": "2010",
+      "actualizacion": "2022",
+      "especialidad": "Enfermedades Respiratorias",
+      "keywords": [],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/asma-bronquial/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "62",
+      "nombre": "Enfermedad de Parkinson: Tratamiento Farmacológico y Quirúrgico",
+      "metodologia": "GRADE",
+      "publicacion": "2010",
+      "actualizacion": "2017",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/enfermedad-de-parkinson-tratamiento-farmacologico-y-quirurgico/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "62.1",
+      "nombre": "Enfermedad de Parkinson Tratamiento No Farmacológico de Rehabilitación",
+      "metodologia": null,
+      "publicacion": "2016",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "farmacologico",
+        "rehabilitacion",
+        "cronicas"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wp-content/uploads/2019/07/GPC-EP-tratamiento-no-farmacologico-EP-final-17-03-2016MT.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "63",
+      "nombre": "Artritis Idiopática Juvenil/Artritis Reumatoidea Juvenil.",
+      "metodologia": "GRADE",
+      "publicacion": "2010",
+      "actualizacion": "2019",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "idiopatica",
+        "cronicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/artritis-idiopatica-juvenil/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "64",
+      "nombre": "Prevención Secundaria Enfermedad Renal Crónica Terminal",
+      "metodologia": null,
+      "publicacion": null,
+      "actualizacion": null,
+      "especialidad": "Tratamiento Preventivo",
+      "keywords": [
+        "cronicas"
+      ],
+      "urls": [],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "64.1",
+      "nombre": "Prevención Enfermedad Renal Crónica. - Diagnóstico",
+      "metodologia": null,
+      "publicacion": "2010",
+      "actualizacion": "2017",
+      "especialidad": "Tratamiento Preventivo",
+      "keywords": [
+        "cronicas"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2018/01/2017.10.24_ENFERMEDAD-RENAL-CRONICA.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "64.2",
+      "nombre": "Prevención Enfermedad Renal Crónica. - Tratamiento",
+      "metodologia": "GRADE",
+      "publicacion": "2010",
+      "actualizacion": "2018",
+      "especialidad": "Tratamiento Preventivo",
+      "keywords": [
+        "cronicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/prevencion-de-la-progresion-de-la-enfermedad-renal-cronica/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "65",
+      "nombre": "Displasia Luxante de Cadera.",
+      "metodologia": "GRADE",
+      "publicacion": "2010",
+      "actualizacion": "2017",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "infancia",
+        "infantil",
+        "recien",
+        "rehabilitacion",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/displasia-luxante-de-caderas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "66",
+      "nombre": "Atención Odontológica Integral de la Embarazada.",
+      "metodologia": null,
+      "publicacion": "2010",
+      "actualizacion": "2013",
+      "especialidad": "Salud Oral",
+      "keywords": [
+        "odontologico",
+        "bucal",
+        "mujeres",
+        "embarazo",
+        "femenino"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Atenci%C3%B3n-Odontol%C3%B3gica-Integral-Embarazada.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "66.1",
+      "nombre": "Resumen Guía Clínica Salud Oral Embarazada",
+      "metodologia": null,
+      "publicacion": "2010",
+      "actualizacion": "2013",
+      "especialidad": "Salud Oral",
+      "keywords": [
+        "guias",
+        "clinicas",
+        "bucal",
+        "mujeres",
+        "embarazo"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/Consulta-rapida.-Salud-oral-embarazada-2013.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "66.2",
+      "nombre": "Patología Pulpar y Periapical en Dentición Permanente",
+      "metodologia": "GRADE",
+      "publicacion": "2019",
+      "actualizacion": null,
+      "especialidad": "Salud Oral",
+      "keywords": [
+        "guias",
+        "grade",
+        "clinicas",
+        "bucal",
+        "mujeres",
+        "embarazo"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/temas-de-salud/temas-de-salud/guias-clinicas-no-ges/guias-clinicas-no-ges-salud-bucal/patologia-pulpar-y-periapical-en-denticion-permanente/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "67",
+      "nombre": "Esclerosis Multiple.",
+      "metodologia": null,
+      "publicacion": "2008",
+      "actualizacion": "2010",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Esclerosis-M%C3%BAltiple.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "67.1",
+      "nombre": "Tratamiento Modificador de la Esclerosis Múltiple.",
+      "metodologia": "GRADE",
+      "publicacion": "2014",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "multiple",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/GPC-TTo-Esclerosis-M%C3%BAltiple.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "68",
+      "nombre": "Manejo y Tratamiento de la Infección por Virus de la Hepatitis B (VHB).",
+      "metodologia": "GRADE",
+      "publicacion": "2010",
+      "actualizacion": "2022",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "infeccion",
+        "transmisibles"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/manejo-y-tratamiento-de-la-infeccion-por-virus-de-la-hepatitis-b-vhb/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "69",
+      "nombre": "Manejo y Tratamiento de la Infección por Virus de la Hepatitis C (VHC).",
+      "metodologia": "GRADE",
+      "publicacion": "2010",
+      "actualizacion": "2019",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "infeccion",
+        "transmisibles",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/manejo-y-tratamiento-de-la-infeccion-cronica-por-virus-de-la-hepatitis-c-vhc/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "70",
+      "nombre": "Cáncer Colorrectal en personas de 15 años y más",
+      "metodologia": "GRADE",
+      "publicacion": "2013",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "colon",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/cancer-colorrectal-en-personas-de-15-anos-y-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "71",
+      "nombre": "Cáncer Ovario Epitelial",
+      "metodologia": "GRADE",
+      "publicacion": "2013",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "mujer",
+        "ovario",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/cancer-de-ovario-epitelial/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "72",
+      "nombre": "Cáncer Vesical en personas de 15 años y más",
+      "metodologia": "GRADE",
+      "publicacion": "2013",
+      "actualizacion": "2024",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "carceres",
+        "quirurgicas",
+        "grade",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/cancer-vesical-en-personas-de-15-anos-y-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "73",
+      "nombre": "Osteosarcoma en personas de 15 años y más",
+      "metodologia": "GRADE",
+      "publicacion": "2013",
+      "actualizacion": "2023",
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "canceres",
+        "cancer",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/osteosarcoma-en-personas-de-15-anos-y-mas/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "74",
+      "nombre": "Tratamiento Quirúrgico Lesiones Crónicas de las Válvula Aórtica en Personas de 15 años y más",
+      "metodologia": null,
+      "publicacion": "2013",
+      "actualizacion": null,
+      "especialidad": "Intervenciones Quirúrgicas",
+      "keywords": [
+        "quirurgicas",
+        "cronicas",
+        "tricuspide",
+        "valcula",
+        "aortica"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/09/Valvulopat%C3%ADas.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "75",
+      "nombre": "Tratamiento de personas de 15 años y más con Transtorno Bipolar.",
+      "metodologia": "GRADE",
+      "publicacion": "2013",
+      "actualizacion": "2018",
+      "especialidad": "Salud Mental",
+      "keywords": [
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/tratamiento-de-personas-de-15-anos-y-mas-con-transtorno-bipolar/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "76",
+      "nombre": "Hipotiroidismo en personas de 15 años y más.",
+      "metodologia": "GRADE",
+      "publicacion": "2013",
+      "actualizacion": "2019",
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "grade"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/hipotiroidismo-en-personas-de-15-anos-y-mas/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "77",
+      "nombre": "Hipoacusia Moderada en menores de 4 años.",
+      "metodologia": "GRADE",
+      "publicacion": "2013",
+      "actualizacion": "2018",
+      "especialidad": "Salud en Personas Menores de 15 años",
+      "keywords": [
+        "infancia",
+        "infantil",
+        "recien",
+        "grade",
+        "nacido"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/hipoacusia-en-menores-de-4-anos/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "78",
+      "nombre": "Lupus Eritematoso Sistémico.",
+      "metodologia": null,
+      "publicacion": "2013",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "cronicas",
+        "sistematico"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/09/Lupus.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "79",
+      "nombre": "Tratamiento Quirúrgico Lesiones Crónicas de las Válvulas Mitral y Tricúspide en personas de 15 años y más",
+      "metodologia": null,
+      "publicacion": "2013",
+      "actualizacion": null,
+      "especialidad": "Intervenciones Quirúrgicas",
+      "keywords": [
+        "quirurgicas",
+        "cronicas",
+        "tricuspide",
+        "valcula",
+        "aortica"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/09/Valvulopat%C3%ADas.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "80",
+      "nombre": "Tratamiento de Erradicación del Helicobacter Pylori.",
+      "metodologia": null,
+      "publicacion": "2013",
+      "actualizacion": null,
+      "especialidad": "Tratamiento Preventivo",
+      "keywords": [
+        "cronicas",
+        "erradicacion"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/09/Helicobacter-Pylori-en-paciente-con-%C3%BAlcera-p%C3%A9ptica.pdf"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "81",
+      "nombre": "Cáncer de Pulmón en persona de 15 años y más",
+      "metodologia": "GRADE",
+      "publicacion": "2018",
+      "actualizacion": null,
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "grade",
+        "pulmon",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/cancer-de-pulmon/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "82",
+      "nombre": "Cáncer de Tiroides en persona de 15 años y más",
+      "metodologia": "GRADE",
+      "publicacion": "2023",
+      "actualizacion": null,
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "grade",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/guias-de-practica-clinicas/cancer-de-tiroides/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "83",
+      "nombre": "Cáncer renal en personas de 15 años y más",
+      "metodologia": "GRADE",
+      "publicacion": "2021",
+      "actualizacion": null,
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "grade",
+        "renal",
+        "riñon",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/cancer-renal-en-personas-de-15-anos-y-mas/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "84",
+      "nombre": "Mieloma múltiple en personas de 15 años y más",
+      "metodologia": "GRADE",
+      "publicacion": "2021",
+      "actualizacion": null,
+      "especialidad": "Tratamiento de Cánceres",
+      "keywords": [
+        "grade",
+        "tumor",
+        "cancer"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/mieloma-multiple-en-personas-de-15-anos-y-mas/recomendaciones/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "85",
+      "nombre": "Enfermedad de Alzheimer y otras demencias",
+      "metodologia": null,
+      "publicacion": null,
+      "actualizacion": null,
+      "especialidad": "Salud Mental",
+      "keywords": [],
+      "urls": [],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "85.1",
+      "nombre": "Demencia tipo Alzheimer",
+      "metodologia": "GRADE",
+      "publicacion": "2022",
+      "actualizacion": null,
+      "especialidad": "Salud Mental",
+      "keywords": [],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/enfermedad-de-alzheimer-y-otras-demencias/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    },
+    {
+      "id": "87",
+      "nombre": "Rehabilitación sars cov-2",
+      "metodologia": "GRADE",
+      "publicacion": "2022",
+      "actualizacion": null,
+      "especialidad": "Enfermedades crónicas y otras",
+      "keywords": [
+        "grade",
+        "covid-19",
+        "virus",
+        "respiratorio",
+        "nuevo",
+        "ges"
+      ],
+      "urls": [
+        "https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/rehabilitacion-sars-cov-2/recomendaciones-grade/"
+      ],
+      "fuente": "MINSAL DIPRECE"
+    }
+  ]
+}

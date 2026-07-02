@@ -1,0 +1,380 @@
+{
+  "_meta": {
+    "title": "Reglas de prescripción CESFAM/SAR Dr. Amador Neghme",
+    "version": "2026-01",
+    "sources": [
+      "Resumen Inducción Farmacia — enero 2026",
+      "Consenso de terapia antibiótica CESFAM/SAR (PROA)"
+    ]
+  },
+
+  "despacho": [
+    {
+      "id": "inhaladores-separados",
+      "title": "Inhaladores: receta separada",
+      "match": ["salbutamol", "budesonida", "fluticasona", "ipratropio", "tiotropio", "formoterol", "salmeterol", "beclometasona"],
+      "severity": "alta",
+      "advice": "Receta de inhaladores se realiza de forma INDEPENDIENTE de medicamentos crónicos. En morbilidad sí puede asociarse con antialérgicos (despacho único). Preguntar si ya posee aerocámara — el despacho es máximo 1 vez al año.",
+      "templates": ["Receta separada de inhaladores. Confirmar tenencia de aerocámara (despacho máx. 1/año)."]
+    },
+    {
+      "id": "insulina-separada",
+      "title": "Insulina: receta separada + jeringas",
+      "match": ["insulina", "nph", "glargina", "cristalina", "rápida"],
+      "severity": "alta",
+      "advice": "Receta de insulina IGUAL DE SEPARADA del resto. NO OLVIDAR jeringas. Dosis < 22 UI/día → despacho cada 42 días. Dosis ≥ 22 UI/día → días = 1000/(UI día).",
+      "templates": [
+        "Insulina NPH _ UI SC mañana / _ UI SC noche. Jeringas U-100. Despacho cada __ días.",
+        "Considerar préstamo de equipo HGT para perfil 5 días (insumos por Rayen)."
+      ]
+    },
+    {
+      "id": "cronicas-365",
+      "title": "Recetas crónicas: 365 días sólo en control anual",
+      "match": [],
+      "context": ["control_cronico", "annual"],
+      "severity": "media",
+      "advice": "Recetas crónicas se extienden por 365 días SOLO si es control anual. En consultas abreviadas / renovación → 4-6 meses hasta el próximo control.",
+      "templates": []
+    },
+    {
+      "id": "ajuste-dosis",
+      "title": "Ajuste de dosis o medicamento nuevo",
+      "match": [],
+      "severity": "media",
+      "advice": "Generar receta NUEVA COMPLETA + receta de morbilidad SOLO con las modificaciones, en cantidad suficiente hasta el próximo despacho de farmacia.",
+      "templates": ["Receta crónica completa actualizada + receta morbilidad con cambio hasta próximo despacho."]
+    },
+    {
+      "id": "rayen-caido",
+      "title": "Sistema Rayen caído",
+      "match": [],
+      "severity": "info",
+      "advice": "Prescribir en receta blanca (papel) y registrar en Word. Cuando vuelva el sistema, repetir en Rayen para registro y rebaja.",
+      "templates": []
+    },
+    {
+      "id": "morbilidad-4d",
+      "title": "Recetas de morbilidad: máx. 4 días",
+      "match": [],
+      "context": ["morbilidad"],
+      "severity": "info",
+      "advice": "Recetas de morbilidad se extienden por máximo 4 días, EXCEPTO antibióticos (período del tratamiento completo).",
+      "templates": []
+    }
+  ],
+
+  "psicotropicos": [
+    {
+      "id": "benzo-blanca-rayen",
+      "title": "Benzodiacepinas: receta BLANCA + por Rayen",
+      "match": ["diazepam", "clonazepam", "alprazolam", "lorazepam", "midazolam"],
+      "severity": "alta",
+      "advice": "Diazepam 10 mg, Clonazepam 0.5/2 mg → receta FÍSICA BLANCA + por Rayen. NO indicar por insomnio. En ansiedad/depresión asegurar derivación a Salud Mental. Máx. 1 mes por receta aunque el tratamiento sea prolongado.",
+      "templates": [
+        "Receta blanca + Rayen. Derivar a Salud Mental.",
+        "Indicación máx. 1 mes; recontrol antes de renovar."
+      ]
+    },
+    {
+      "id": "cheque-verde",
+      "title": "Receta cheque (verde)",
+      "match": ["fenobarbital", "metilfenidato"],
+      "severity": "alta",
+      "advice": "Fenobarbital 100 mg y Metilfenidato LP 10 mg → RECETA CHEQUE (verde). Indicados por especialista de nivel secundario.",
+      "templates": ["Receta cheque (verde). Indicación originada por especialista nivel secundario."]
+    },
+    {
+      "id": "envio-tens",
+      "title": "Recetas de papel: enviar con TENS de sector",
+      "match": ["diazepam", "clonazepam", "fenobarbital", "metilfenidato"],
+      "severity": "info",
+      "advice": "Enviar la receta de papel con TENS de sector (o personalmente) a farmacia — los pacientes suelen pasar directo a retirar."
+    }
+  ],
+
+  "restricciones": [
+    {
+      "id": "celecoxib",
+      "title": "Celecoxib — restricción",
+      "match": ["celecoxib"],
+      "severity": "media",
+      "advice": "Celecoxib: 10 cápsulas / 2 meses. Posología estándar: 1 cápsula cada 144 horas.",
+      "templates": ["Celecoxib 200 mg, 1 cápsula cada 144 horas (10 cápsulas / 2 meses)."]
+    },
+    {
+      "id": "tramadol-caps",
+      "title": "Tramadol 50 mg cápsulas — restricción",
+      "match": ["tramadol"],
+      "severity": "media",
+      "advice": "Tramadol 50 mg: 10 cápsulas / 2 meses. Posología: 1 cápsula cada 144 horas.",
+      "templates": ["Tramadol 50 mg, 1 cápsula cada 144 horas (10 cápsulas / 2 meses)."]
+    },
+    {
+      "id": "tramadol-gotas",
+      "title": "Tramadol gotas — restricción",
+      "match": ["tramadol gotas", "tramadol solucion"],
+      "severity": "media",
+      "advice": "Tramadol gotas: 2 frascos al año. Posología: 6 gotas cada 96 h por 360 días.",
+      "templates": ["Tramadol gotas, 6 gotas cada 96 horas por 360 días (2 frascos/año)."]
+    },
+    {
+      "id": "omeprazol-uso",
+      "title": "Omeprazol — uso restringido",
+      "match": ["omeprazol", "esomeprazol"],
+      "severity": "alta",
+      "advice": "Omeprazol crónico solo en: artrosis (si requiere) o por especialista (úlcera péptica/duodenal) o erradicación H. pylori. Para gastritis y otras → 4 comprimidos + receta externa.",
+      "templates": [
+        "Omeprazol 20 mg, 1 comp/día por 4 días (gastritis: receta externa para continuar).",
+        "Omeprazol 20 mg c/12h x 14 días (erradicación H. pylori)."
+      ]
+    },
+    {
+      "id": "amoxicilina-1g",
+      "title": "Amoxicilina 1 g — solo H. pylori",
+      "match": ["amoxicilina 1", "amoxicilina 1000"],
+      "severity": "alta",
+      "advice": "Amoxicilina 1 g está reservada SOLO para erradicación de H. pylori. Para otras indicaciones usar 500 mg.",
+      "templates": ["Amoxicilina 500 mg en lugar de 1 g (salvo H. pylori)."]
+    },
+    {
+      "id": "dapagliflozina",
+      "title": "Dapagliflozina — criterios",
+      "match": ["dapagliflozina", "empagliflozina", "isglt2"],
+      "severity": "media",
+      "advice": "Dapagliflozina (GES modificado): >15 años con ERC G3 (VFG 30-60), ERC G4 (VFG 20-30) o ICC confirmada. Antes era <60 años + DM + ERC3b.",
+      "templates": ["Dapagliflozina 10 mg/día — confirmar criterio GES (ERC G3-G4 o ICC)."]
+    },
+    {
+      "id": "eszopiclona",
+      "title": "Eszopiclona — solo GES depresión grave",
+      "match": ["eszopiclona", "zopiclona"],
+      "severity": "alta",
+      "advice": "Eszopiclona 3 mg: solo bajo GES Depresión Grave en >15 años.",
+      "templates": []
+    },
+    {
+      "id": "levotiroxina-7d",
+      "title": "Levotiroxina con dosis variable",
+      "match": ["levotiroxina", "eutirox", "t4"],
+      "severity": "info",
+      "advice": "Si la dosis varía día a día, prescribir cada 7 días. Ej: 6 comprimidos cada 7 días por 360 días.",
+      "templates": ["Levotiroxina __ mcg, 6 comprimidos cada 7 días por 360 días."]
+    },
+    {
+      "id": "metformina-1000",
+      "title": "Metformina 1000 mg LP — no para iniciar",
+      "match": ["metformina 1000", "metformina lp", "metformina 1g"],
+      "severity": "media",
+      "advice": "Metformina 1000 mg LP NO se usa para iniciar. Solo continuación (extrasistema) o RAM con la de 850 mg.",
+      "templates": ["Metformina 850 mg c/12h con alimentos como inicio (subir según tolerancia)."]
+    },
+    {
+      "id": "antihistaminicos-morbi",
+      "title": "Antihistamínicos para morbilidad",
+      "match": ["clorfenamina", "desloratadina", "cetirizina", "loratadina"],
+      "severity": "info",
+      "advice": "Para morbilidad: Clorfenamina comprimidos. Desloratadina 10 mg comp/jarabe y Cetirizina jarabe SOLO para crónicos."
+    },
+    {
+      "id": "vildagliptina",
+      "title": "Vildagliptina — uso ampliado",
+      "match": ["vildagliptina", "sitagliptina", "linagliptina"],
+      "severity": "info",
+      "advice": "Vildagliptina disponible. Se está ampliando uso y haciendo cambio de glibenclamida → vildagliptina."
+    }
+  ],
+
+  "antibioticos": [
+    {
+      "id": "amigdalitis-sbhga",
+      "diagnosis": "Amigdalitis estreptocócica (SBHGA)",
+      "icd": ["J03"],
+      "criteria": "Centor modificado: ≥4 puntos = tratar empírico. 2-3 = test rápido / cultivo. 0-1 = sintomático.",
+      "first_line": [
+        "Penicilina G benzatina IM dosis única — >27 kg: 1.2M UI · <27 kg: 600.000 UI",
+        "Amoxicilina 500 mg c/12h x 10 días (50 mg/kg/día, máx 1 g/día)"
+      ],
+      "alergia_pnc_no_anafilactica": ["Cefadroxilo 500 mg c/12h x 10 días (30 mg/kg/día, máx 1 g/d)"],
+      "alergia_pnc": ["Azitromicina 500 mg c/24h x 5 días (12 mg/kg/día)"],
+      "duration_note": "10 días para erradicar SBHGA de faringe."
+    },
+    {
+      "id": "rinosinusitis",
+      "diagnosis": "Rinosinusitis aguda bacteriana (RSA)",
+      "icd": ["J01"],
+      "criteria": "Bacteriana en 1-2%. Evolución A: ≥10 días sin mejoría · B: empeoramiento tras mejoría · C: fiebre ≥39° + descarga purulenta ≥3 días.",
+      "first_line": [
+        "Amoxicilina 500 mg c/8h x 7 días",
+        "Pediátrico: 50 mg/kg/día c/12h x 10 días"
+      ],
+      "fracaso_72h_o_atb_previo": [
+        "Amoxicilina/Clavulánico 500/125 c/8h o 875/125 c/12h x 7 días (80 mg/kg/día)"
+      ],
+      "alergia_pnc_no_anafilactica": [
+        "Cefpodoxima 200 mg (30 mg/kg/d) o Cefuroxima 500 mg (10 mg/kg/d) c/12h x 7 días"
+      ],
+      "alergia_pnc": [
+        "Azitromicina 10 mg/kg/día c/24h x 5 días (seguimiento estricto por resistencia)",
+        "Levofloxacino 500-750 mg c/24h x 7 días (evitar <18 años y RSA no complicada)",
+        "Doxiciclina 100 mg c/12h x 5-7 días"
+      ]
+    },
+    {
+      "id": "oma",
+      "diagnosis": "Otitis media aguda (OMA)",
+      "icd": ["H66"],
+      "criteria": "<6m: siempre ATB · OMA bilateral / supurada / inicio severo: siempre ATB · ≥6m con cuadro <48h leve: analgesia + control 48-72h.",
+      "first_line": [
+        "Amoxicilina 500 mg c/8h x 7 días",
+        "<2 años: 50 mg/kg/día c/12h x 10 días"
+      ],
+      "fracaso_72h_o_atb_previo": [
+        "Amoxicilina/Clavulánico 500/125 c/8h o 875/125 c/12h x 7 días (80 mg/kg/día)"
+      ],
+      "alergia_pnc": ["Similar a RSA"]
+    },
+    {
+      "id": "nac",
+      "diagnosis": "Neumonía adquirida en la comunidad (NAC)",
+      "icd": ["J18", "J15"],
+      "criteria": "CRB-65 (Confusión, FR≥30, PAS<90/PAD≤60, edad≥65): 0=ambulatorio, 1-2=considerar hospitalizar, 3-4=hospitalizar.",
+      "menor_65_sin_comorbilidad": ["Amoxicilina 1 g c/12h x 5-7 días (≥3m: 50 mg/kg/día c/12h)"],
+      "alergia_pnc": [
+        "Doxiciclina 100 mg c/12h x 5-7 días",
+        "Azitromicina 500 mg c/24h x 5 días (resistencia)"
+      ],
+      "mayor_65_o_comorbilidad": [
+        "Amoxicilina/Clavulánico 500/125 c/8h o 875/125 c/12h x 7 días"
+      ],
+      "alergia_pnc_grupo2": [
+        "Levofloxacino 500-750 mg c/24h x 5 días",
+        "Cefpodoxima 200 mg c/12h o Cefuroxima 500 mg c/12h x 5-7 días + Azitromicina 500 mg c/24h x 5 días"
+      ]
+    },
+    {
+      "id": "epoc-exa",
+      "diagnosis": "EPOC exacerbado",
+      "icd": ["J44"],
+      "criteria": "Anthonisen: indicar ATB si los 3 (disnea + volumen + purulencia) o 1 + aumento de purulencia.",
+      "first_line": ["Amoxicilina/Clavulánico 500/125 c/8h x 5 días"],
+      "alergia_pnc": [
+        "Azitromicina 500 mg c/24h x 5 días",
+        "Levofloxacino 500-750 mg c/24h x 5 días"
+      ]
+    },
+    {
+      "id": "bronquitis-aguda",
+      "diagnosis": "Bronquitis aguda",
+      "icd": ["J20"],
+      "criteria": "SIN indicación de antibiótico. Tos puede durar 4-6 sem; esputo amarillo no implica sobreinfección.",
+      "first_line": ["Sintomático — NO antibiótico"]
+    },
+    {
+      "id": "impetigo",
+      "diagnosis": "Impétigo / heridas superficiales infectadas",
+      "icd": ["L01", "L08"],
+      "first_line": [
+        "Lesión aislada: descostraje + Mupirocina 2% crema c/8h x 5 días",
+        "Múltiples lesiones: Cefadroxilo 30 mg/kg/día c/12h x 5-7 días",
+        "Flucloxacilina/Cloxacilina 50 mg/kg/día c/6h x 5-7 días"
+      ],
+      "alergia_pnc": ["Cotrimoxazol Forte 800/160 mg c/12h x 7 días (evitar macrólidos: resistencia >20%)"]
+    },
+    {
+      "id": "celulitis",
+      "diagnosis": "Celulitis / Erisipela",
+      "icd": ["L03"],
+      "criteria": "Sospecha fascitis necrotizante (progresión rápida, dolor desproporcionado, crepitación, flictenas, SIRS) → derivación inmediata a cirugía.",
+      "first_line": [
+        "Reposo con extremidad elevada",
+        "Cefadroxilo 500 mg, 2 comp c/12h x 10 días",
+        "Amoxicilina/Clavulánico 500/125 c/8h o 875/125 c/12h x 7-14 días"
+      ],
+      "alergia_pnc": ["Cotrimoxazol Forte 800/160 mg c/12h x 7 días"]
+    },
+    {
+      "id": "absceso",
+      "diagnosis": "Absceso / forúnculo / paroniquia",
+      "icd": ["L02"],
+      "criteria": "ATB si: celulitis asociada ≥5 cm, valvulopatía/prótesis, fracaso del drenaje.",
+      "first_line": [
+        "Incisión y drenaje",
+        "Amoxicilina/Clavulánico 500/125 c/8h o 875/125 c/12h x 7 días"
+      ]
+    },
+    {
+      "id": "mordedura",
+      "diagnosis": "Mordedura de mamífero",
+      "icd": ["W54", "W55", "T14"],
+      "criteria": "Profilaxis ATB si: herida profunda, mano/cerca de hueso, inmunodeprimido, felina (80% se infecta). Profilaxis antitetánica + antirrábica.",
+      "first_line": ["Amoxicilina/Clavulánico 500/125 c/8h o 875/125 c/12h x 3-5 días (extender 7-14 d si celulitis)"],
+      "alergia_pnc": ["Levofloxacino 750 mg c/24h + Metronidazol 500 mg c/8h"]
+    },
+    {
+      "id": "pie-diabetico",
+      "diagnosis": "Pie diabético infectado",
+      "icd": ["E11.5", "L97"],
+      "criteria": "Severidad por escala de San Elián.",
+      "first_line": ["Amoxicilina/Clavulánico 875/125 c/12h o 500/125 c/8h x 7-14 días"],
+      "alergia_pnc": ["Ciprofloxacino 500 mg c/12h + Metronidazol 500 mg c/12h x 7-14 días"]
+    },
+    {
+      "id": "itu-baja",
+      "diagnosis": "ITU baja (cistitis)",
+      "icd": ["N30", "N39.0"],
+      "criteria": "Nitrofurantoína NO en ITU alta ni varones · contraindicada 38-42 sem embarazo (anemia hemolítica RN) · útil con VFGe >45.",
+      "first_line": [
+        "Nitrofurantoína 100 mg c/6h x 5 días (5-7 mg/kg/d)",
+        "Cefadroxilo 500 mg c/12h x 3-5 días (30-50 mg/kg/d)"
+      ]
+    },
+    {
+      "id": "itu-alta",
+      "diagnosis": "ITU alta (PNA)",
+      "icd": ["N10"],
+      "criteria": "Derivar PNA complicada: SIRS, sospecha de complicación local, falla renal aguda, prostatitis.",
+      "first_line": ["Cefadroxilo 500 mg c/12h x 7 días"],
+      "alternativas": [
+        "Ciprofloxacino 500 mg c/12h",
+        "Levofloxacino 500-750 mg c/24h",
+        "Cotrimoxazol forte 800/160 mg c/12h",
+        "Amoxicilina/Clavulánico 500/125 c/8h",
+        "Cefpodoxima 200 mg c/12h",
+        "Amikacina 1 g (15 mg/kg/d) c/24h EV",
+        "Ceftriaxona 2 g (50-100 mg/kg/d) c/24h EV"
+      ]
+    },
+    {
+      "id": "h-pylori",
+      "diagnosis": "Erradicación de Helicobacter pylori",
+      "icd": ["B96.81", "K29"],
+      "criteria": "Control de erradicación 6-8 semanas post-tratamiento con antígeno en deposiciones (suspender IBP 2 sem antes).",
+      "first_line": [
+        "CUADRITERAPIA CONCOMITANTE x 14 días:",
+        "• Amoxicilina 500 mg, 2 comp c/12h",
+        "• Claritromicina 500 mg, 1 comp c/12h",
+        "• Metronidazol 500 mg, 1 comp c/8h",
+        "• Omeprazol 20 mg, 1 comp c/12h"
+      ],
+      "alergia_pnc": [
+        "Tetraciclina 500 mg c/8h + Metronidazol 500 mg c/8h + Omeprazol 20 mg c/8h + Subsalicilato bismuto 20 mL c/8h x 14 días"
+      ],
+      "segunda_linea": [
+        "Tetraciclina 500 mg c/6h + Metronidazol 500 mg c/6h + Omeprazol 20 mg c/6h + Subsalicilato bismuto 15 mL c/6h x 14 días"
+      ]
+    }
+  ],
+
+  "ram": {
+    "title": "Notificación de RAM",
+    "advice": "Para reportar RAM: descargar formulario ISP (FORMULARIO-RAM-V3.docx), completar y enviar a farmacia.aneghme@pedroaguirrecerda.cl",
+    "form_url": "https://www.ispch.gob.cl/wp-content/uploads/2021/01/FORMULARIO-RAM-V3.docx",
+    "email": "farmacia.aneghme@pedroaguirrecerda.cl"
+  },
+
+  "farmacia_popular": {
+    "url": "https://farmaciapopularonline.cl/ConsultorPAC?farmacia=PAC",
+    "wsp": "+56 9 7601 6833"
+  }
+}

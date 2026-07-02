@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "documentos": [
+    {
+      "id": "calendario-cefalea",
+      "title": "Calendario de cefalea (registro mensual)",
+      "category": "Monitoreo crónicos",
+      "icon": "🧠",
+      "color": "#7c3aed",
+      "description": "Calendario mensual para registrar frecuencia, intensidad (EVA), duración, SOS y síntomas asociados de la cefalea.",
+      "fields": [
+        { "key": "nombre", "label": "Nombre del paciente", "type": "text", "required": true },
+        { "key": "rut", "label": "RUT", "type": "text" },
+        { "key": "edad", "label": "Edad", "type": "text" },
+        { "key": "mes", "label": "Fecha de emisión", "type": "date", "required": true, "default": "__today__" },
+        { "key": "tratamiento", "label": "Tratamiento preventivo actual (opcional)", "type": "textarea" },
+        { "key": "sos", "label": "Medicamento SOS indicado (opcional)", "type": "text", "default": "Paracetamol 1 g / Ibuprofeno 400 mg" }
+      ]
+    },
+    {
+      "id": "cuadro-medicamentos",
+      "title": "Cuadro de medicamentos (mañana / tarde / noche)",
+      "category": "Educación al paciente",
+      "icon": "💊",
+      "color": "#0ea5a4",
+      "description": "Hoja de apoyo con horario visual de medicamentos por jornada (sol / tarde / luna), diagnósticos e identificación del paciente.",
+      "fields": [
+        { "key": "nombre", "label": "Nombre del paciente", "type": "text", "required": true },
+        { "key": "rut", "label": "RUT", "type": "text" },
+        { "key": "edad", "label": "Edad", "type": "text" },
+        { "key": "diagnosticos", "label": "Diagnósticos médicos (uno por línea)", "type": "textarea", "required": true, "default": "" },
+        { "key": "medicamentos", "label": "Medicamentos", "type": "medrows", "required": true, "default": "" },
+        { "key": "indicaciones", "label": "Indicaciones adicionales (opcional)", "type": "textarea" }
+      ]
+    },
+    {
+      "id": "perfil-pa",
+      "title": "Perfil de presión arterial (5 días)",
+      "category": "Monitoreo crónicos",
+      "icon": "🩸",
+      "color": "#dc2626",
+      "description": "Hoja para registro domiciliario de PA (mañana y tarde) durante 5 días, con tratamiento actual.",
+      "fields": [
+        { "key": "nombre", "label": "Nombre del paciente", "type": "text", "required": true },
+        { "key": "rut", "label": "RUT", "type": "text" },
+        { "key": "tratamiento", "label": "Tratamiento actual", "type": "textarea", "required": true, "default": "" },
+        { "key": "indicaciones", "label": "Indicaciones adicionales (opcional)", "type": "textarea" }
+      ]
+    },
+    {
+      "id": "perfil-glicemia",
+      "title": "Perfil de glicemia capilar (7 días)",
+      "category": "Monitoreo crónicos",
+      "icon": "💉",
+      "color": "#0ea5a4",
+      "description": "Hoja para automonitoreo glicémico: ayuno, post-desayuno, pre-almuerzo, post-almuerzo, pre-cena, nocturno.",
+      "fields": [
+        { "key": "nombre", "label": "Nombre del paciente", "type": "text", "required": true },
+        { "key": "rut", "label": "RUT", "type": "text" },
+        { "key": "tratamiento", "label": "Tratamiento actual", "type": "textarea" },
+        { "key": "metas", "label": "Metas de glicemia", "type": "text", "default": "Ayuno 80-130 mg/dL · 2h post-prandial <180 mg/dL" }
+      ]
+    },
+    {
+      "id": "conners-padres",
+      "title": "Test de Conners abreviado (padres/madres)",
+      "category": "Salud mental infantojuvenil",
+      "icon": "🧒",
+      "color": "#8b5cf6",
+      "description": "Cuestionario de 10 ítems para padres/madres — tamizaje TDAH 4-12 años.",
+      "fields": [
+        { "key": "nombre", "label": "Nombre del niño/a", "type": "text", "required": true },
+        { "key": "edad", "label": "Edad", "type": "text" },
+        { "key": "rut", "label": "RUT", "type": "text" },
+        { "key": "informante", "label": "Informante (nombre y parentesco)", "type": "text" },
+        { "key": "fecha", "label": "Fecha de aplicación", "type": "date" }
+      ]
+    },
+    {
+      "id": "conners-profesor",
+      "title": "Test de Conners abreviado (profesor/a)",
+      "category": "Salud mental infantojuvenil",
+      "icon": "🏫",
+      "color": "#8b5cf6",
+      "description": "Cuestionario de 10 ítems para profesor/a — tamizaje TDAH 4-12 años.",
+      "fields": [
+        { "key": "nombre", "label": "Nombre del niño/a", "type": "text", "required": true },
+        { "key": "edad", "label": "Edad", "type": "text" },
+        { "key": "curso", "label": "Curso", "type": "text" },
+        { "key": "establecimiento", "label": "Establecimiento educacional", "type": "text" },
+        { "key": "informante", "label": "Profesor/a informante", "type": "text" },
+        { "key": "fecha", "label": "Fecha de aplicación", "type": "date" }
+      ]
+    },
+    {
+      "id": "solicitud-espirometria",
+      "title": "Solicitud de espirometría",
+      "category": "Solicitudes de exámenes",
+      "icon": "🌬",
+      "color": "#0284c7",
+      "description": "Orden de espirometría con datos antropométricos y motivo clínico.",
+      "fields": [
+        { "key": "nombre", "label": "Nombre del paciente", "type": "text", "required": true },
+        { "key": "rut", "label": "RUT", "type": "text", "required": true },
+        { "key": "edad", "label": "Edad", "type": "text" },
+        { "key": "peso", "label": "Peso (kg)", "type": "text" },
+        { "key": "talla", "label": "Talla (cm)", "type": "text" },
+        { "key": "diagnostico", "label": "Diagnóstico / motivo clínico", "type": "textarea", "required": true, "default": "Sospecha EPOC / asma" },
+        { "key": "tratamiento", "label": "Tratamiento broncodilatador actual", "type": "textarea" },
+        { "key": "tipo", "label": "Tipo de estudio", "type": "select", "options": ["Basal", "Basal + post-broncodilatador", "Solo post-broncodilatador"], "default": "Basal + post-broncodilatador" }
+      ]
+    },
+    {
+      "id": "info-hta",
+      "title": "Informativo: Hipertensión Arterial",
+      "category": "Folletos educativos",
+      "icon": "📘",
+      "color": "#1d4ed8",
+      "description": "Hoja informativa con recomendaciones no farmacológicas para HTA.",
+      "fields": [
+        { "key": "nombre", "label": "Entregado a (opcional)", "type": "text" }
+      ]
+    },
+    {
+      "id": "info-dm2",
+      "title": "Informativo: Diabetes Mellitus tipo 2",
+      "category": "Folletos educativos",
+      "icon": "📗",
+      "color": "#15803d",
+      "description": "Hoja informativa con autocuidado, alimentación y signos de alarma DM2.",
+      "fields": [
+        { "key": "nombre", "label": "Entregado a (opcional)", "type": "text" }
+      ]
+    },
+    {
+      "id": "info-sickday",
+      "title": "Informativo: Días de enfermedad (Sick-day rules)",
+      "category": "Folletos educativos",
+      "icon": "📕",
+      "color": "#b91c1c",
+      "description": "Qué fármacos suspender ante deshidratación/fiebre (IECA/ARA II, AINE, metformina, iSGLT2, diuréticos).",
+      "fields": [
+        { "key": "nombre", "label": "Entregado a (opcional)", "type": "text" }
+      ]
+    },
+    {
+      "id": "interconsulta-libre",
+      "title": "Interconsulta — formato libre imprimible",
+      "category": "Solicitudes",
+      "icon": "📨",
+      "color": "#7c3aed",
+      "description": "Formato simple para interconsulta cuando el sistema no genera SIGGES.",
+      "fields": [
+        { "key": "nombre", "label": "Nombre del paciente", "type": "text", "required": true },
+        { "key": "rut", "label": "RUT", "type": "text", "required": true },
+        { "key": "edad", "label": "Edad", "type": "text" },
+        { "key": "especialidad", "label": "Especialidad solicitada", "type": "text", "required": true },
+        { "key": "diagnostico", "label": "Diagnóstico", "type": "textarea", "required": true },
+        { "key": "antecedentes", "label": "Antecedentes mórbidos relevantes", "type": "textarea" },
+        { "key": "examenes", "label": "Exámenes / estudios realizados", "type": "textarea" },
+        { "key": "motivo", "label": "Motivo de derivación", "type": "textarea", "required": true }
+      ]
+    },
+    {
+      "id": "mmse",
+      "title": "Mini Mental State Examination (MMSE)",
+      "category": "Evaluación cognitiva",
+      "icon": "🧠",
+      "color": "#7c3aed",
+      "kind": "pdf",
+      "pdfUrl": "assets/forms/mmse.pdf",
+      "description": "Hoja oficial del MMSE — vista previa del PDF."
+    },
+    {
+      "id": "moca",
+      "title": "Montreal Cognitive Assessment (MoCA)",
+      "category": "Evaluación cognitiva",
+      "icon": "🧠",
+      "color": "#7c3aed",
+      "kind": "pdf",
+      "pdfUrl": "assets/forms/moca.pdf",
+      "description": "Hoja oficial del MoCA v8.1 español — vista previa del PDF."
+    }
+  ]
+}

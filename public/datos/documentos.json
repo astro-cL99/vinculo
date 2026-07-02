@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "documentos": [
+    { "id": "calendario-cefalea", "title": "Calendario de cefalea (registro mensual)", "category": "Monitoreo crónicos" },
+    { "id": "cuadro-medicamentos", "title": "Cuadro de medicamentos (mañana / tarde / noche)", "category": "Educación al paciente" },
+    { "id": "perfil-pa", "title": "Perfil de presión arterial (5 días)", "category": "Monitoreo crónicos" },
+    { "id": "perfil-glicemia", "title": "Perfil de glicemia capilar (7 días)", "category": "Monitoreo crónicos" },
+    { "id": "conners-padres", "title": "Test de Conners abreviado (padres/madres)", "category": "Salud mental infantojuvenil" },
+    { "id": "conners-profesor", "title": "Test de Conners abreviado (profesor/a)", "category": "Salud mental infantojuvenil" },
+    { "id": "solicitud-espirometria", "title": "Solicitud de espirometría", "category": "Solicitudes de exámenes" },
+    { "id": "info-hta", "title": "Informativo: Hipertensión Arterial", "category": "Folletos educativos" },
+    { "id": "info-dm2", "title": "Informativo: Diabetes Mellitus tipo 2", "category": "Folletos educativos" },
+    { "id": "info-sickday", "title": "Informativo: Días de enfermedad (Sick-day rules)", "category": "Folletos educativos" },
+    { "id": "interconsulta-libre", "title": "Interconsulta — formato libre imprimible", "category": "Solicitudes" },
+    { "id": "guia-embarazo", "title": "Guía clínica: Medicamentos en el Embarazo (SSASUR, FDA A/B/C/D/X)", "category": "Recursos farmacológicos", "url": "/recursos/guia-medicamentos-embarazo.pdf" }
+  ]
+}

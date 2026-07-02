@@ -1,0 +1,119 @@
+{
+  "manifest_version": 3,
+  "name": "Vínculo",
+  "version": "1.2.2",
+  "description": "Aprendizaje de flujos + lab parser + recordatorios APS + calculadora pediátrica + Arsenal CESFAM + Farmacia (PROA) + alertas de interacciones + Guía de Medicamentos en Embarazo (FDA A/B/C/D/X, SSASUR) + documentos imprimibles + certificados médicos e Informe Biomédico COMPIN con autollenado desde la ficha + Anamnesis por voz (Lovable AI / Gemini, sin almacenamiento de audio, cumple Ley 21.719). Local-first, sin nube.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://clinico.rayenaps.cl/*",
+    "https://neghme.lovable.app/*",
+    "https://project--7e111fe6-05d4-49de-a8c4-fc87998caac1.lovable.app/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Vínculo",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://clinico.rayenaps.cl/*"
+      ],
+      "js": [
+        "modules/consent.js",
+        "modules/disclaimer.js",
+        "modules/audit-log.js",
+        "modules/patient-hash.js",
+        "modules/ruleset-version.js",
+        "log.js",
+        "analyte-dict.js",
+        "modules/utils.js",
+        "modules/lab-session.js",
+        "modules/lab-critical.js",
+        "modules/pii-rules.js",
+        "modules/pii.js",
+        "modules/logger.js",
+        "modules/evidencia.js",
+        "modules/auge-ges.js",
+        "modules/auge-ges-ui.js",
+        "modules/gpc-flows.js",
+        "data/roles.js",
+        "modules/role-router.js",
+        "modules/consultor-ui.js",
+        "clinical-data.js",
+        "data-overrides.js",
+        "patient-vitals.js",
+        "dx-extract.js",
+        "rut-utils.js",
+        "patient-extract.js",
+        "lab-parser.js",
+        "vendor/pdf.min.js",
+        "modules/lab-pdf.js",
+        "flow-learn.js",
+        "modules/embarazo.js",
+        "arsenal.js",
+        "farmacia.js",
+        "interactions.js",
+        "peds-doser.js",
+        "dx-suggest.js",
+        "drug-watch.js",
+        "documentos.js",
+        "assets/logos.js",
+        "certificados.js",
+        "doc-history.js",
+        "data/actividades.js",
+        "activities-automator.js",
+        "recetas-automator.js",
+        "modules/recetas-emit.js",
+        "modules/protocolos-pac.js",
+        "modules/derivacion-interna.js",
+        "modules/resumen-hc.js",
+        "modules/voice-recorder.js",
+        "modules/voice-ui.js",
+        "modules/voice-anamnesis.js",
+        "clinical-ui.js",
+        "modules/feedback.js",
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "commands": {
+    "open-quick-picker": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Space",
+        "mac": "Command+Shift+Space"
+      },
+      "description": "Abrir selector rápido de plantillas"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/*.json",
+        "assets/*",
+        "vendor/pdf.worker.min.js",
+        "modules/page-sniffer.js"
+      ],
+      "matches": [
+        "https://clinico.rayenaps.cl/*"
+      ]
+    }
+  ]
+}

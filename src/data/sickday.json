@@ -1,0 +1,98 @@
+[
+  {
+    "drug": "IECA (Enalapril, Lisinopril, Ramipril)",
+    "category": "Bloqueo RAA",
+    "suspendWhen": "Creatinina sube >30% respecto al basal tras inicio o aumento de dosis. Potasio ≥5.5 mEq/L persistente. Deshidratación severa o enfermedad aguda intercurrente.",
+    "resumeWhen": "Creatinina vuelve a <30% del basal y K+ <5.0 mEq/L. Rehidratación adecuada.",
+    "sickDayRule": "Suspender temporalmente en \"días de enfermedad\" (vómitos, diarrea, fiebre alta, cirugía).",
+    "keyAlert": "Si creatinina sube >50% post-inicio → Sospechar HTA renovascular, derivar."
+  },
+  {
+    "drug": "ARA II (Losartán, Valsartán, Candesartán)",
+    "category": "Bloqueo RAA",
+    "suspendWhen": "Mismos criterios que IECA: K+ ≥5.5 mEq/L persistente, creatinina >30% del basal, deshidratación severa.",
+    "resumeWhen": "Estabilización de función renal y electrolitos.",
+    "sickDayRule": "Suspender en \"días de enfermedad\".",
+    "keyAlert": "Controlar creatinina y potasio al mes de inicio. Nunca combinar IECA + ARA II."
+  },
+  {
+    "drug": "Espironolactona",
+    "category": "ARM (Antagonista Receptor Mineralocorticoide)",
+    "suspendWhen": "K+ ≥5.5 mEq/L. VFG <30 ml/min (precaución desde VFG <45). Deshidratación severa o falla renal aguda.",
+    "resumeWhen": "K+ <5.0 mEq/L con función renal estabilizada.",
+    "sickDayRule": "Suspender en \"días de enfermedad\".",
+    "keyAlert": "Monitorizar K+ mensual al inicio. Mayor riesgo de hiperkalemia con IECA/ARA II concomitante."
+  },
+  {
+    "drug": "Finerenona (ARM no esteroidal)",
+    "category": "ARM (Antagonista Receptor Mineralocorticoide)",
+    "suspendWhen": "K+ ≥5.5 mEq/L persistente. Episodios de deshidratación severa o falla renal aguda.",
+    "resumeWhen": "K+ <5.0 mEq/L. Preferir sobre espironolactona en DM2 + ERC con albuminuria persistente (menor riesgo hiperkalemia).",
+    "sickDayRule": "Suspender en \"días de enfermedad\".",
+    "keyAlert": "Indicado en DM2 + ERC con albuminuria a pesar de IECA/ARA II + iSGLT2 a dosis máximas."
+  },
+  {
+    "drug": "Tiazidas (HCTZ, Clortalidona)",
+    "category": "Diuréticos",
+    "suspendWhen": "VFG <30 ml/min (pierden eficacia). Hiponatremia <130 mEq/L. Hipokalemia severa refractaria.",
+    "resumeWhen": "No reintroducir si VFG <30. Corregir electrolitos antes de reiniciar.",
+    "sickDayRule": "Suspender en \"días de enfermedad\" para evitar depleción de volumen.",
+    "keyAlert": "No tienen efecto natriurético con VFG <30. Preferir diuréticos de asa."
+  },
+  {
+    "drug": "Furosemida / Torasemida",
+    "category": "Diuréticos",
+    "suspendWhen": "Deshidratación clínica, hipovolemia, hipotensión. Hiponatremia o hipokalemia severa.",
+    "resumeWhen": "Rehidratación adecuada. Seguir función renal y electrolitos.",
+    "sickDayRule": "Suspender en \"días de enfermedad\".",
+    "keyAlert": "Pueden usarse incluso en VFG muy bajo (requieren dosis mayores). No suspender preventivamente en ERC avanzada con sobrecarga."
+  },
+  {
+    "drug": "Metformina",
+    "category": "Antidiabéticos",
+    "suspendWhen": "VFG <30 ml/min (contraindicación absoluta). Reducir dosis al 50% con VFG 30-45 ml/min. Suspender 48h antes de cirugía o uso de contraste yodado.",
+    "resumeWhen": "Reiniciar 48h post-contraste si creatinina estable. Reiniciar post-cirugía con función renal verificada.",
+    "sickDayRule": "Suspender en \"días de enfermedad\" (riesgo de acidosis láctica con deshidratación).",
+    "keyAlert": "Primer escalón hipoglicemiante en DM2. Con VFG 30-45: máximo 1000 mg/día."
+  },
+  {
+    "drug": "Empagliflozina",
+    "category": "Antidiabéticos (iSGLT2)",
+    "suspendWhen": "VFG <20 ml/min (no iniciar; puede continuar hasta diálisis si ya en uso). Cetoacidosis diabética. Cirugía mayor (suspender 3 días antes).",
+    "resumeWhen": "Post-cirugía con ingesta oral estable. Sin cetoacidosis activa.",
+    "sickDayRule": "Suspender en \"días de enfermedad\" (riesgo cetoacidosis euglucémica).",
+    "keyAlert": "KDIGO 2024: Puede usarse hasta VFG ≥20 ml/min (no ≥45 como guías antiguas). Efecto nefroprotector independiente de VFG."
+  },
+  {
+    "drug": "Dapagliflozina",
+    "category": "Antidiabéticos (iSGLT2)",
+    "suspendWhen": "VFG <25 ml/min para inicio en IC (DAPA-HF). VFG <20 ml/min para inicio en ERC. Cetoacidosis. Cirugía mayor.",
+    "resumeWhen": "Post-cirugía con ingesta oral estable.",
+    "sickDayRule": "Suspender en \"días de enfermedad\".",
+    "keyAlert": "DAPA-CKD: beneficio demostrado hasta VFG ≥25. No suspender por caída transitoria de VFG al inicio (dip fisiológico)."
+  },
+  {
+    "drug": "Amlodipino / Nifedipino",
+    "category": "Calcioantagonistas (BCC)",
+    "suspendWhen": "Hipotensión sintomática. Edema periférico severo refractario.",
+    "resumeWhen": "Ajustar dosis a la baja. No requieren ajuste por función renal.",
+    "sickDayRule": "Generalmente no se suspenden en \"días de enfermedad\" salvo hipotensión.",
+    "keyAlert": "No requieren ajuste renal. Son antihipertensivos seguros en ERC avanzada."
+  },
+  {
+    "drug": "Alopurinol",
+    "category": "Antigotosos",
+    "suspendWhen": "Reacción de hipersensibilidad (DRESS, síndrome de hipersensibilidad al alopurinol). Toxicidad hepática.",
+    "resumeWhen": "En caso de reacción severa: NO reintroducir. Considerar Febuxostat como alternativa.",
+    "sickDayRule": "No aplica.",
+    "keyAlert": "Hiperuricemia asintomática NO requiere tratamiento farmacológico (no cambia pronóstico renal ni CV)."
+  },
+  {
+    "drug": "Semaglutida / Liraglutida / Dulaglutida",
+    "category": "Agonistas GLP-1",
+    "suspendWhen": "VFG <15 ml/min (datos limitados). Pancreatitis aguda. Náuseas/vómitos severos persistentes.",
+    "resumeWhen": "Resolución de síntomas GI. Post-pancreatitis: no reiniciar.",
+    "sickDayRule": "Suspender si vómitos/diarrea severos (riesgo de IRA por deshidratación).",
+    "keyAlert": "Semaglutida: seguro hasta VFG ≥15. Preferir en DM2 + obesidad grado 2-3 o cuando no se alcanza meta de HbA1c con Metformina + iSGLT2."
+  }
+]

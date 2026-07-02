@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vínculo</title>
+    <style>
+      :root {
+        --c1: #0ea5a4;
+        --c2: #0284c7;
+        --bg: #f8fafc;
+        --line: #e2e8f0;
+        --txt: #0f172a;
+        --muted: #64748b;
+        --ok: #16a34a;
+        --warn: #ea580c;
+        --err: #dc2626;
+      }
+      * { box-sizing: border-box; }
+      body {
+        font: 13px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        margin: 0; width: 360px; color: var(--txt); background: white;
+      }
+      header {
+        background: linear-gradient(135deg, var(--c1), var(--c2));
+        color: white; padding: 12px 14px;
+      }
+      header h1 { margin: 0; font-size: 14px; display: flex; align-items: center; gap: 6px; }
+      header .ver { font-size: 11px; opacity: .85; margin-top: 2px; }
+      .tabs { display: flex; border-bottom: 1px solid var(--line); background: var(--bg); }
+      .tabs button {
+        flex: 1; background: none; border: 0; padding: 9px 4px; font: inherit;
+        color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent;
+      }
+      .tabs button.on { color: var(--c1); border-bottom-color: var(--c1); background: white; font-weight: 600; }
+      .panel { padding: 12px 14px; display: none; }
+      .panel.on { display: block; }
+      .panel p { margin: 0 0 8px; color: var(--muted); font-size: 12px; }
+      code { background: #f1f5f9; padding: 1px 5px; border-radius: 4px; font-size: 11.5px; }
+      .row { display: flex; gap: 6px; margin-bottom: 6px; align-items: center; }
+      .row > * { flex: 1; }
+      button.btn {
+        background: white; border: 1px solid var(--line); padding: 7px 10px;
+        border-radius: 6px; font: inherit; color: var(--txt); cursor: pointer;
+        text-align: center; transition: all .15s;
+      }
+      button.btn:hover { border-color: var(--c1); color: var(--c1); }
+      button.btn.primary {
+        background: linear-gradient(135deg, var(--c1), var(--c2)); color: white; border-color: transparent;
+      }
+      button.btn.primary:hover { filter: brightness(1.05); }
+      button.btn.danger { color: var(--err); border-color: #fecaca; }
+      .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+      .stat {
+        background: var(--bg); border: 1px solid var(--line); border-radius: 6px;
+        padding: 8px; text-align: center;
+      }
+      .stat b { display: block; font-size: 16px; color: var(--c1); }
+      .stat span { display: block; font-size: 10.5px; color: var(--muted); margin-top: 2px; }
+      .stat.custom b { color: var(--warn); }
+      .toast {
+        position: fixed; bottom: 8px; left: 14px; right: 14px;
+        background: #0f172a; color: white; padding: 8px 10px; border-radius: 6px;
+        font-size: 12px; opacity: 0; pointer-events: none; transition: opacity .2s;
+        z-index: 99;
+      }
+      .toast.show { opacity: 1; }
+      .toast.ok { background: var(--ok); }
+      .toast.err { background: var(--err); }
+      hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0; }
+      h3 { margin: 8px 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); }
+      .meta { font-size: 11px; color: var(--muted); }
+      .meta b { color: var(--txt); }
+      input[type="file"] { display: none; }
+      a { color: var(--c1); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>⚡ Vínculo</h1>
+      <div class="ver">Modo local · CESFAM offline · <span id="ver">v—</span></div>
+    </header>
+    <div style="background:#fef9c3;border-bottom:1px solid #fde047;color:#713f12;padding:6px 14px;font-size:11px;line-height:1.35">
+      ⚠️ <b>La IA no diagnostica.</b> Herramienta de apoyo; la decisión clínica final es del profesional.
+    </div>
+
+    <div class="tabs">
+      <button data-tab="info" class="on">Inicio</button>
+      <button data-tab="datos">Datos</button>
+      <button data-tab="diag">Diagnóstico</button>
+      <button data-tab="priv">Privacidad</button>
+      <button data-tab="acerca">Acerca</button>
+    </div>
+
+    <div class="panel on" id="tab-info">
+      <h3>Tu rol en el CESFAM</h3>
+      <p style="margin:0 0 6px;color:var(--muted);font-size:11px">Filtra los botones de la barra flotante según tu profesión.</p>
+      <select id="role-select" style="width:100%;padding:8px;border:1px solid var(--line);border-radius:6px;font:inherit;background:white;margin-bottom:8px">
+        <option value="medico">👨‍⚕️ Médico</option>
+        <option value="enfermeria">💉 Enfermería</option>
+        <option value="kine">🦵 Kinesiología</option>
+        <option value="nutri">🥗 Nutrición</option>
+        <option value="odonto">🦷 Odontología</option>
+        <option value="tens">🩹 TENS</option>
+        <option value="psico">🧠 Psicología</option>
+      </select>
+
+      <div id="patient-role-box" style="background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px;margin-bottom:10px;display:none">
+        <div style="font-size:11px;color:var(--muted);margin-bottom:4px">Paciente actual: <b id="pat-name" style="color:var(--txt)">—</b></div>
+        <label style="font-size:11px;color:var(--muted);display:block;margin-bottom:4px">Rol solo para este paciente <span style="color:var(--c1)">(opcional)</span></label>
+        <div style="display:flex;gap:6px">
+          <select id="patient-role-select" style="flex:1;padding:6px;border:1px solid var(--line);border-radius:6px;font:inherit;background:white">
+            <option value="">— usar rol global —</option>
+            <option value="medico">👨‍⚕️ Médico</option>
+            <option value="enfermeria">💉 Enfermería</option>
+            <option value="kine">🦵 Kinesiología</option>
+            <option value="nutri">🥗 Nutrición</option>
+            <option value="odonto">🦷 Odontología</option>
+            <option value="tens">🩹 TENS</option>
+            <option value="psico">🧠 Psicología</option>
+          </select>
+        </div>
+        <div style="font-size:10.5px;color:var(--muted);margin-top:4px">Rol efectivo: <b id="pat-effective" style="color:var(--c1)">—</b></div>
+      </div>
+      <hr/>
+      <p>Abre <b>clinico.rayenaps.cl</b>. Verás los botones flotantes:</p>
+      <p>• <b>🧪 Lab</b> · extrae exámenes &nbsp; • <b>⚡ Plantillas</b> · texto rápido<br/>
+         • <b>📚 Clínica</b> · VFG, fármacos, Dx sugeridos, flujogramas<br/>
+         • <b>🤖 Consultor IA</b> · pregunta a Gemini con contexto del paciente</p>
+      <p>Atajo: <code>Ctrl+Shift+Espacio</code> para selector rápido.</p>
+      <p style="color:var(--ok);"><b>✓ 100% local</b> — Consultor IA usa Lovable AI sin enviar PII.</p>
+    </div>
+
+    <div class="panel" id="tab-datos">
+      <p>
+        Mantén la base clínica de tu CESFAM <b>actualizada localmente</b> sin
+        depender del servidor. Importa o exporta JSON desde aquí.
+      </p>
+      <h3>Estado actual</h3>
+      <div class="grid3">
+        <div class="stat" id="s-renal"><b>—</b><span>Fármacos renales</span></div>
+        <div class="stat" id="s-sick"><b>—</b><span>Sick-day rules</span></div>
+        <div class="stat" id="s-flows"><b>—</b><span>Flujogramas</span></div>
+      </div>
+      <p class="meta" style="margin-top:8px">Versión datos: <b id="dver">—</b> · Actualizado: <b id="dupd">nunca</b></p>
+
+      <hr/>
+      <h3>Importar bundle (.json)</h3>
+      <p>Acepta el bundle completo (renal + sickday + flujogramas) o un archivo individual.</p>
+      <div class="row">
+        <button class="btn primary" id="btn-import">📥 Importar JSON…</button>
+        <button class="btn" id="btn-export">📤 Exportar actual</button>
+      </div>
+      <input type="file" id="file-import" accept="application/json,.json"/>
+
+      <hr/>
+      <h3>Restaurar de fábrica</h3>
+      <p>Vuelve a los datos embebidos en esta versión de la extensión.</p>
+      <div class="row">
+        <button class="btn danger" data-reset="renal">↺ Renal</button>
+        <button class="btn danger" data-reset="sickday">↺ Sick-day</button>
+        <button class="btn danger" data-reset="flows">↺ Flujos</button>
+      </div>
+      <div class="row">
+        <button class="btn danger" id="btn-reset-all">↺ Restaurar TODO de fábrica</button>
+      </div>
+    </div>
+
+    <div class="panel" id="tab-diag">
+      <p>Registro local de errores con trazas anonimizadas (sin PII). Útil para reportar fallos al equipo de desarrollo.</p>
+      <h3>Estadísticas</h3>
+      <div class="grid3">
+        <div class="stat"><b id="d-total">—</b><span>Total</span></div>
+        <div class="stat"><b id="d-err" style="color:var(--err)">—</b><span>Errores</span></div>
+        <div class="stat"><b id="d-warn" style="color:var(--warn)">—</b><span>Warnings</span></div>
+      </div>
+      <p class="meta" style="margin-top:8px">Más antiguo: <b id="d-oldest">—</b><br/>Más reciente: <b id="d-newest">—</b></p>
+      <h3>Códigos más frecuentes</h3>
+      <div id="d-codes" style="font-size:11.5px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px;min-height:30px;font-family:monospace"></div>
+      <hr/>
+      <div class="row">
+        <button class="btn primary" id="btn-export-log">📤 Exportar log (.json)</button>
+        <button class="btn danger" id="btn-clear-log">🗑️ Limpiar</button>
+      </div>
+      <p class="meta" style="margin-top:8px">El archivo contiene mensajes sanitizados, stacks anonimizadas, versión de la extensión y conteos. <b>No contiene RUT, nombres ni datos del paciente.</b></p>
+    </div>
+
+    <div class="panel" id="tab-priv">
+      <p>Cumplimiento <b>Ley 19.628</b> y <b>Ley 21.719</b>. Toda la operación es local en este equipo.</p>
+
+      <h3>Consentimiento profesional</h3>
+      <div class="stat" style="text-align:left;padding:10px">
+        <div>Estado: <b id="cons-status">—</b></div>
+        <div class="meta" id="cons-date" style="margin-top:4px">—</div>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <button class="btn" id="btn-cons-review">↻ Revisar consentimiento</button>
+      </div>
+
+      <h3>Funciones autorizadas</h3>
+      <div id="cons-features" style="display:flex;flex-direction:column;gap:6px;font-size:12px"></div>
+
+      <h3>Hash de paciente</h3>
+      <p class="meta">SHA-256 con sal local de 32 bytes. La sal nunca se sincroniza ni se envía a la nube. Rotar invalida hashes previos.</p>
+      <div class="stat" style="text-align:left;padding:10px">
+        <div>Algoritmo: <b id="ph-algo">—</b></div>
+        <div>Sal local: <b id="ph-salt">—</b></div>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <button class="btn danger" id="btn-rotate-salt">🔄 Rotar sal</button>
+      </div>
+
+      <h3>Versión del ruleset clínico</h3>
+      <p class="meta">Identificador trazable de las reglas activas para auditoría.</p>
+      <div class="stat" style="text-align:left;padding:10px;font-family:monospace;font-size:11.5px">
+        <div>Composite: <b id="rs-composite">—</b></div>
+        <div id="rs-parts" style="margin-top:4px;color:var(--muted)"></div>
+      </div>
+
+      <hr/>
+      <p class="meta">
+        Marco legal:
+        <a href="https://www.bcn.cl/leychile/navegar?idNorma=141599" target="_blank">Ley 19.628</a> ·
+        <a href="https://www.bcn.cl/leychile/navegar?idNorma=1209272" target="_blank">Ley 21.719</a>
+      </p>
+    </div>
+
+    <div class="panel" id="tab-acerca">
+      <p>
+        <b>Vínculo</b> ayuda al equipo médico del CESFAM dentro de
+        <code>clinico.rayenaps.cl</code>: plantillas, extracción de laboratorio,
+        ajuste renal, recordatorios APS y flujogramas locales.
+      </p>
+      <p>
+        Cada equipo guarda sus propios datos. Puedes mantener una versión
+        actualizada del bundle clínico para todo el centro descargándolo desde
+        la página oficial:
+      </p>
+      <p>
+        <a href="https://amadorneghme.lovable.app/actualizaciones" target="_blank">
+          amadorneghme.lovable.app/actualizaciones
+        </a>
+      </p>
+      <p class="meta">
+        Datos clínicos del CESFAM en este equipo. Lab solo en sesión.
+        Sin telemetría. Sin red.
+      </p>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

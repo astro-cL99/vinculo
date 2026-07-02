@@ -1,0 +1,172 @@
+{
+  "_meta": {
+    "fuente": "MINSAL Chile · DIPRECE · Guías GES/GPC",
+    "actualizado": "2024",
+    "guias": [
+      { "id": "hta-adulto", "titulo": "GPC Hipertensión Arterial Primaria (≥15 años)", "anio": 2018, "url": "https://diprece.minsal.cl/wp-content/uploads/2019/05/08.-RE_GPC-HTA-Final_2018v5.pdf" },
+      { "id": "erc", "titulo": "GPC Prevención Secundaria Enfermedad Renal Crónica", "anio": 2017, "url": "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2018/01/2017.10.24_ENFERMEDAD-RENAL-CRONICA.pdf" },
+      { "id": "dm2", "titulo": "GPC Tratamiento Farmacológico Diabetes Mellitus 2", "anio": 2017, "url": "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2018/01/DIABETES-MELLITUS-TIPO-2-1.pdf" },
+      { "id": "hipotiroidismo", "titulo": "GPC Hipotiroidismo en personas de 15 años y más", "anio": 2013, "url": "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/09/Hipotiroidismo-personas-de-15-a%C3%B1os-y-m%C3%A1s.pdf" },
+      { "id": "hta-pediatrica", "titulo": "Orientación Técnica HTA en infancia y adolescencia", "anio": 2024, "url": "https://diprece.minsal.cl/wp-content/uploads/2024/04/2024.04.18_HIPERTENSION-ARTERIAL-EN-INFANCIA-Y-ADOLESCENCIA_v3.pdf" }
+    ]
+  },
+
+  "hta_adulto": {
+    "diagnostico": [
+      "Confirmar HTA con perfil de PA (≥3 mediciones en ≥3 días distintos) o MAPA 24h",
+      "Etapa 1: PAS 140-159 y/o PAD 90-99",
+      "Etapa 2: PAS ≥160 y/o PAD ≥100",
+      "Crisis hipertensiva: PA ≥180/110 → urgencia/emergencia según daño órgano blanco"
+    ],
+    "metas": [
+      { "perfil": "General <80 años", "meta": "<140/90 mmHg" },
+      { "perfil": "DM o ERC con albuminuria", "meta": "<130/80 mmHg" },
+      { "perfil": "Adulto mayor frágil / ≥80 años", "meta": "<150/90 (PAS no <130)" },
+      { "perfil": "Límite inferior PAD sugerido", "meta": "≥70 mmHg" }
+    ],
+    "tratamiento_inicial": [
+      "1ª línea: IECA (Enalapril 5–20 mg c/12h) o ARA II (Losartán 50–100 mg/día)",
+      "Asociar: Hidroclorotiazida 12,5–25 mg/día o Amlodipino 5–10 mg/día",
+      "≥160/100 o riesgo CV alto → iniciar con combinación dual",
+      "Embarazo: contraindicados IECA/ARA II (teratogénicos) → metildopa, labetalol, nifedipino"
+    ],
+    "control": [
+      "Reevaluar a las 2-4 semanas tras inicio o ajuste",
+      "Función renal y K+ 1-2 semanas tras iniciar IECA/ARA II",
+      "Una vez compensado: control trimestral mínimo"
+    ]
+  },
+
+  "erc": {
+    "estadios_vfg": [
+      { "etapa": "G1", "vfg": "≥90", "desc": "Daño renal con VFG normal" },
+      { "etapa": "G2", "vfg": "60-89", "desc": "Daño renal con VFG levemente disminuida" },
+      { "etapa": "G3a", "vfg": "45-59", "desc": "Disminución moderada-leve" },
+      { "etapa": "G3b", "vfg": "30-44", "desc": "Disminución moderada-severa" },
+      { "etapa": "G4", "vfg": "15-29", "desc": "Disminución severa — derivar a nefrología" },
+      { "etapa": "G5", "vfg": "<15", "desc": "ERC terminal — preparar TRR" }
+    ],
+    "albuminuria_rac": [
+      { "cat": "A1", "rac": "<30 mg/g", "desc": "Normal o ligeramente elevada" },
+      { "cat": "A2", "rac": "30-300 mg/g", "desc": "Moderadamente elevada (microalbuminuria)" },
+      { "cat": "A3", "rac": ">300 mg/g", "desc": "Severamente elevada (proteinuria clínica)" }
+    ],
+    "manejo": [
+      "VFGe <60 mL/min/1,73m² → confirmar en 2 semanas para descartar IRA",
+      "G1-G2 con RAC ≥30: IECA o ARA II (no combinar)",
+      "G3 en adelante: IECA/ARA II + intensificar control PA y glicémico",
+      "Meta PA: <140/90 sin albuminuria; <130/80 con A2-A3",
+      "Meta HbA1c: <7% (más flexible en frágil)",
+      "Meta LDL: <100 mg/dL (idealmente <70 si alto riesgo CV)",
+      "Controlar K+ y creatinina a la semana de iniciar IECA/ARA II",
+      "Suspender IECA/ARA II en hipovolemia (vómitos, diarrea, sepsis)",
+      "Evitar AINEs y ajustar dosis de fármacos según VFG"
+    ],
+    "derivacion_nefrologia": [
+      "VFG <30 mL/min/1,73m² (G4-G5)",
+      "RAC >300 mg/g persistente",
+      "Caída rápida VFG (>5 mL/min/año)",
+      "HTA refractaria o hiperkalemia persistente",
+      "Hematuria persistente sin causa urológica"
+    ]
+  },
+
+  "dm2": {
+    "diagnostico": [
+      "HbA1c ≥6,5% en 2 ocasiones",
+      "Glicemia ayuno ≥126 mg/dL en 2 ocasiones",
+      "PTGO 2h ≥200 mg/dL",
+      "Síntomas + glicemia random ≥200 mg/dL"
+    ],
+    "metas_hba1c": [
+      { "perfil": "Adulto sano, sin comorbilidades", "meta": "<7%" },
+      { "perfil": "Adulto mayor saludable", "meta": "7–7,5%" },
+      { "perfil": "Adulto mayor frágil", "meta": "<8%" },
+      { "perfil": "Estado complejo / terminal", "meta": "<8,5%" }
+    ],
+    "primera_linea": [
+      "Metformina (todos, salvo contraindicación)",
+      "Iniciar 500 mg c/día con comidas, titular hasta 850–1000 mg c/12h",
+      "Reducir a la mitad si VFG 30-44 (G3b); suspender si VFG <30",
+      "Contraindicado: VFG <30, IC descompensada, hepatopatía severa, alcoholismo activo",
+      "Si intolerancia → iDPP4 (sitagliptina, linagliptina) sobre sulfonilureas"
+    ],
+    "segunda_linea": [
+      "Metformina + iDPP4 (preferido sobre sulfonilureas, menos hipoglicemia)",
+      "Metformina + iSGLT2 (empagliflozina, dapagliflozina): preferir si ECV, IC, ERC",
+      "Metformina + GLP-1 (liraglutida, semaglutida): considerar si obesidad o ECV",
+      "Sulfonilureas (glibenclamida): última opción por hipoglicemia"
+    ],
+    "tercera_linea_insulina": [
+      "Iniciar Insulina NPH si HbA1c >9% o glicemia >300 mg/dL con síntomas",
+      "Dosis inicial: 0,1–0,2 U/kg/día nocturna; titular 2 U cada 3 días según glicemia ayuno",
+      "Mantener Metformina; suspender sulfonilurea al iniciar insulina basal-bolo",
+      "Debut inestable (poliuria, polidipsia, baja peso + HbA1c >9% o glicemia >300) → insulina"
+    ],
+    "controles": [
+      "HbA1c c/3 meses si descompensado; c/6 meses si en meta",
+      "Fondo de ojo anual (GES)",
+      "Pie diabético: examen anual + monofilamento",
+      "RAC y creatinina anual",
+      "Perfil lipídico anual"
+    ]
+  },
+
+  "hipotiroidismo": {
+    "diagnostico": [
+      "TSH elevada + T4L baja → hipotiroidismo clínico",
+      "TSH elevada + T4L normal → hipotiroidismo subclínico",
+      "Tamizaje en mujeres ≥35 años, embarazo, riesgo CV, AcTPO+, DM1, antecedente familiar"
+    ],
+    "algoritmo_tsh": [
+      { "tsh": "4,5–10 mUI/L (no embarazada, T4L normal)", "accion": "Subclínico: control 6 meses, considerar levotiroxina si AcTPO+, bocio o síntomas; iniciar 25–50 mcg" },
+      { "tsh": "10–20 mUI/L", "accion": "Iniciar levotiroxina 50–100 mcg/día" },
+      { "tsh": ">20 mUI/L", "accion": "Iniciar levotiroxina 1,0–1,6 mcg/kg/día" },
+      { "tsh": "Embarazada con TSH elevada", "accion": "Iniciar levotiroxina 50–75 mcg y derivar a endocrinología" },
+      { "tsh": ">75 años", "accion": "Iniciar 25–50 mcg con titulación lenta y derivar" }
+    ],
+    "control": [
+      "TSH a las 6–8 semanas tras inicio o ajuste; meta TSH ~3 mUI/L",
+      "Tomar levotiroxina en ayunas, 30–60 min antes del desayuno",
+      "Separar de calcio, hierro, IBP, fibra y soya (≥4h)"
+    ],
+    "derivacion_endocrino": [
+      "Adulto >75 años",
+      "Cardiopatía coronaria / IC",
+      "Embarazo",
+      "Sospecha hipotiroidismo secundario o severo",
+      "Antecedente cáncer tiroideo o nódulo palpable",
+      "TSH persistentemente elevada pese a tratamiento adecuado",
+      "Uso de amiodarona o litio"
+    ]
+  },
+
+  "hta_pediatrica": {
+    "tamizaje": [
+      "Medir PA anualmente desde los 3 años en cada control de salud",
+      "Medir <3 años solo si: prematuro, PEG, cardiopatía, ERC, malformaciones urinarias, antecedentes familiares HTA o trasplante"
+    ],
+    "definiciones": [
+      { "edad": "1–13 años", "normal": "<p90", "elevada": "p90–p95 o ≥120/80", "etapa1": "p95–p95+12 o 130/80–139/89", "etapa2": "≥p95+12 o ≥140/90" },
+      { "edad": "≥13 años", "normal": "<120/80", "elevada": "120/<80 a 129/<80", "etapa1": "130/80–139/89", "etapa2": "≥140/90" }
+    ],
+    "manejo": [
+      "PA elevada: medidas no farmacológicas (DASH, actividad física), recontrol 6 meses",
+      "Etapa 1 sin daño órgano blanco: estilo de vida + recontrol 1-2 semanas; si persiste → estudio etiológico",
+      "Etapa 2 o sintomática: derivar a nefrología/cardiología pediátrica para evaluar farmacoterapia",
+      "MAPA en sospecha de HTA de bata blanca o enmascarada"
+    ],
+    "farmacos": [
+      "IECA: enalapril 0,08–0,6 mg/kg/día (max 40 mg)",
+      "ARA II: losartán 0,7–1,4 mg/kg/día (max 100 mg)",
+      "BCC: amlodipino 0,06–0,3 mg/kg/día (max 10 mg)",
+      "Diurético: hidroclorotiazida 1–3 mg/kg/día (max 50 mg)"
+    ],
+    "derivacion": [
+      "Toda HTA etapa 2 o etapa 1 persistente",
+      "Sospecha de causa secundaria (más frecuente mientras menor edad)",
+      "Daño órgano blanco (HVI, retinopatía, microalbuminuria)",
+      "ERC o cardiopatía concomitante"
+    ]
+  }
+}

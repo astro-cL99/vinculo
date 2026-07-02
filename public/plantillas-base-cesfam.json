@@ -1,0 +1,60 @@
+{
+  "name": "Plantillas base CESFAM",
+  "version": 2,
+  "exportedAt": "2026-04-22",
+  "templates": [
+    {
+      "id": "seed-empa-adulto",
+      "name": "EMPA adulto — signos vitales normales",
+      "description": "Examen de Medicina Preventiva del Adulto: signos vitales y antropometría base.",
+      "fields": [
+        { "selector": "input[name='presionSistolica']", "type": "text", "label": "PA sistólica", "value": "120" },
+        { "selector": "input[name='presionDiastolica']", "type": "text", "label": "PA diastólica", "value": "75" },
+        { "selector": "input[name='frecuenciaCardiaca']", "type": "text", "label": "FC", "value": "72" },
+        { "selector": "input[name='frecuenciaRespiratoria']", "type": "text", "label": "FR", "value": "16" },
+        { "selector": "input[name='saturacion']", "type": "text", "label": "SatO2", "value": "98" },
+        { "selector": "input[name='temperatura']", "type": "text", "label": "T°", "value": "36.5" }
+      ]
+    },
+    {
+      "id": "seed-control-htn-lab",
+      "name": "Control crónico HTA + lab",
+      "description": "HTA compensado con resumen de exámenes desde Rayen (placeholders {{lab.*}}).",
+      "fields": [
+        { "selector": "textarea[name='anamnesis']", "type": "textarea", "label": "Anamnesis", "value": "Paciente acude a control de patología crónica HTA. Refiere adherencia a tratamiento, sin síntomas cardiovasculares, niega cefalea, dolor torácico ni disnea. Dieta hiposódica parcial." },
+        { "selector": "textarea[name='examenFisico']", "type": "textarea", "label": "Examen físico", "value": "Buen estado general, vigil, orientado. Cardiopulmonar: ruidos cardíacos rítmicos, sin soplos. MP+ sin ruidos agregados. Abdomen blando, depresible, indoloro. Extremidades sin edema." },
+        { "selector": "textarea[name='laboratorio']", "type": "textarea", "label": "Laboratorio", "value": "Lab del {{lab.glicemia.fecha}}: Glicemia {{lab.glicemia}}, Creatinina {{lab.creatinina}}, Hb {{lab.hemoglobina}}, perfil lipídico — CT {{lab.colesterol_total}} / LDL {{lab.ldl}} / HDL {{lab.hdl}} / TG {{lab.trigliceridos}}, Na {{lab.sodio}}, K {{lab.potasio}}." },
+        { "selector": "textarea[name='indicaciones']", "type": "textarea", "label": "Indicaciones", "value": "1. Mantener tratamiento actual.\n2. Dieta hiposódica estricta (<5g/día).\n3. Actividad física aeróbica 150 min/semana.\n4. Control PA domiciliaria 2x/semana.\n5. Control en 3 meses con exámenes de rutina." }
+      ]
+    },
+    {
+      "id": "seed-control-dm2-lab",
+      "name": "Control crónico DM2 + lab",
+      "description": "DM2 compensada con HbA1c, microalbuminuria, RAC y función renal extraídos automáticamente.",
+      "fields": [
+        { "selector": "textarea[name='anamnesis']", "type": "textarea", "label": "Anamnesis", "value": "Paciente con DM2 en control. Refiere adherencia a tratamiento farmacológico y dieta. Niega síntomas de hipoglicemia, poliuria, polidipsia o pérdida de peso. Realiza autocontrol glicémico ocasional." },
+        { "selector": "textarea[name='examenFisico']", "type": "textarea", "label": "Examen físico", "value": "BEG. Cardiopulmonar normal. Pies: sin lesiones, pulsos pedios presentes simétricos, sensibilidad conservada con monofilamento 10g. Sin signos de neuropatía." },
+        { "selector": "textarea[name='laboratorio']", "type": "textarea", "label": "Laboratorio", "value": "Lab del {{lab.hba1c.fecha}}: HbA1c {{lab.hba1c}}, Glicemia ayuno {{lab.glicemia}}, Creatinina {{lab.creatinina}} (VFG {{lab.vfg}}), Microalbuminuria {{lab.microalbuminuria}}, RAC {{lab.rac}}, perfil lipídico — CT {{lab.colesterol_total}} / LDL {{lab.ldl}} / HDL {{lab.hdl}} / TG {{lab.trigliceridos}}." },
+        { "selector": "textarea[name='indicaciones']", "type": "textarea", "label": "Indicaciones", "value": "1. Continuar tratamiento actual.\n2. Dieta para diabético, fraccionada en 4-5 comidas.\n3. Actividad física regular.\n4. Autocontrol glicémico capilar.\n5. Control en 3 meses con HbA1c, perfil lipídico, creatinina, microalbuminuria.\n6. Fondo de ojo anual." }
+      ]
+    },
+    {
+      "id": "seed-empa-lab",
+      "name": "EMPA + perfil bioquímico",
+      "description": "Examen preventivo con resumen de perfil bioquímico básico.",
+      "fields": [
+        { "selector": "textarea[name='laboratorio']", "type": "textarea", "label": "Laboratorio", "value": "Perfil bioquímico {{lab.glicemia.fecha}}: Glicemia {{lab.glicemia}}, Creatinina {{lab.creatinina}}, Colesterol total {{lab.colesterol_total}}, LDL {{lab.ldl}}, HDL {{lab.hdl}}, Triglicéridos {{lab.trigliceridos}}, TSH {{lab.tsh}}." }
+      ]
+    },
+    {
+      "id": "seed-ira-alta",
+      "name": "IRA alta viral — adulto",
+      "description": "Resfrío común / faringitis viral en adulto sin criterios de gravedad.",
+      "fields": [
+        { "selector": "textarea[name='anamnesis']", "type": "textarea", "label": "Anamnesis", "value": "Cuadro de 2-3 días de evolución caracterizado por congestión nasal, odinofagia leve, tos seca y malestar general. Afebril. Niega disnea, dolor torácico ni compromiso del estado general significativo." },
+        { "selector": "textarea[name='examenFisico']", "type": "textarea", "label": "Examen físico", "value": "BEG, hidratado, afebril. OFG: faringe eritematosa sin exudado. Otoscopia normal. Cuello sin adenopatías significativas. Cardiopulmonar: ruidos cardíacos rítmicos, MP+ sin ruidos agregados. SatO2 >97% AA." },
+        { "selector": "textarea[name='indicaciones']", "type": "textarea", "label": "Indicaciones", "value": "1. Reposo relativo en domicilio.\n2. Hidratación abundante.\n3. Paracetamol 500mg c/8h SOS dolor o fiebre.\n4. Lavados nasales con SF.\n5. Consultar en SAPU/urgencia si: fiebre >38.5°C persistente >72h, disnea, dolor torácico, compromiso del estado general." }
+      ]
+    }
+  ]
+}

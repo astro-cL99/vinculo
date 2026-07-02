@@ -1,0 +1,143 @@
+{
+  "version": "0.9.6",
+  "source": "Compilación CESFAM — Beers Criteria 2023, STOPP/START v2, Lexicomp APS, Manual Pediatría PUC, MINSAL APS.",
+  "rules": [
+    {
+      "id": "triple_whammy",
+      "title": "Triple whammy renal (AINE + IECA/ARA-II + diurético)",
+      "severity": "alta",
+      "requires": ["aine", "ieca_ara", "diuretico"],
+      "advice": "Riesgo elevado de FRA. Evitar la combinación. Si es indispensable, controlar creatinina y K+ en 5-7 días, asegurar hidratación y suspender el AINE en intercurrencia (sick day).",
+      "refs": "BMJ 2013;346:e8525 / NICE NG203."
+    },
+    {
+      "id": "ieca_ara_dual",
+      "title": "Doble bloqueo del SRAA (IECA + ARA-II)",
+      "severity": "alta",
+      "requires": ["ieca", "ara"],
+      "advice": "No se recomienda combinar IECA y ARA-II: aumenta hiperkalemia, hipotensión y FRA sin beneficio clínico (ONTARGET). Suspender uno.",
+      "refs": "ONTARGET 2008 / GES HTA Chile."
+    },
+    {
+      "id": "isrs_tramadol",
+      "title": "ISRS/IRSN + tramadol → síndrome serotoninérgico",
+      "severity": "alta",
+      "requires": ["isrs_irsn", "tramadol"],
+      "advice": "Riesgo de síndrome serotoninérgico y disminución del umbral convulsivo. Preferir paracetamol o AINE. Si es imprescindible, advertir signos (hipertermia, mioclonías, agitación) y limitar a <5 días.",
+      "refs": "FDA 2016 safety communication."
+    },
+    {
+      "id": "warfarina_aine",
+      "title": "Warfarina/acenocumarol + AINE",
+      "severity": "alta",
+      "requires": ["anticoag_oral", "aine"],
+      "advice": "Aumenta riesgo hemorrágico GI 4-5x. Sustituir AINE por paracetamol. Si necesidad ineludible, gastroprotección con IBP y control de INR a los 3-5 días.",
+      "refs": "STOPP-D2 / Beers 2023."
+    },
+    {
+      "id": "warfarina_atb",
+      "title": "Warfarina + antibióticos (cotrimoxazol, metronidazol, ciprofloxacino, macrólidos)",
+      "severity": "alta",
+      "requires": ["anticoag_oral", "atb_inr"],
+      "advice": "Estos antibióticos potencian el efecto anticoagulante. Controlar INR al 3°-5° día del inicio del antibiótico y al término del esquema. Ajustar dosis si INR > rango.",
+      "refs": "Hansten/Horn — Top 100 drug interactions."
+    },
+    {
+      "id": "macrolido_estatina",
+      "title": "Macrólidos (claritromicina/eritromicina) + estatinas (simvastatina/atorvastatina)",
+      "severity": "alta",
+      "requires": ["macrolido_3a4", "estatina_3a4"],
+      "advice": "Inhibición CYP3A4 → riesgo de rabdomiolisis. Suspender estatina mientras dure el antibiótico (curso corto) o cambiar a azitromicina (no inhibe 3A4). Pravastatina y rosuvastatina son alternativas seguras.",
+      "refs": "BMJ 2013;347:f4880."
+    },
+    {
+      "id": "qt_prolongation",
+      "title": "Combinación de fármacos prolongadores del QT",
+      "severity": "alta",
+      "requires_count": { "any_of": ["qt_long"], "min": 2 },
+      "advice": "Riesgo aditivo de torsades de pointes. Evaluar ECG basal, K+ y Mg++. Considerar alternativas. Riesgo mayor en mujer, >65a, insuficiencia cardiaca o hipokalemia.",
+      "refs": "CredibleMeds.org / AHA 2010."
+    },
+    {
+      "id": "hipokalemia_qt",
+      "title": "Diurético depletor de K+ + fármaco QT-largo",
+      "severity": "media",
+      "requires": ["diuretico_depletor_k", "qt_long"],
+      "advice": "La hipokalemia inducida por diuréticos potencia QT-largo. Verificar K+ sérico antes y a los 7 días. Suplementar K+ si <4.0 mEq/L.",
+      "refs": "ACC/AHA 2017 — sd. QT-largo adquirido."
+    },
+    {
+      "id": "metformina_contraste",
+      "title": "Metformina + medio de contraste yodado",
+      "severity": "media",
+      "requires": ["metformina", "contraste_yodado"],
+      "advice": "Si VFG <60 mL/min, suspender metformina el día del procedimiento y reiniciar a las 48 h tras control de creatinina. VFG >60: no requiere suspensión rutinaria.",
+      "refs": "ACR Manual on Contrast Media v2023."
+    },
+    {
+      "id": "ibp_clopidogrel",
+      "title": "Omeprazol/esomeprazol + clopidogrel",
+      "severity": "media",
+      "requires": ["ibp_2c19", "clopidogrel"],
+      "advice": "Inhibición CYP2C19 reduce activación de clopidogrel. Preferir pantoprazol o ranitidina si se requiere gastroprotección.",
+      "refs": "FDA 2009 / GES IAM Chile."
+    },
+    {
+      "id": "litio_aine",
+      "title": "Litio + AINE/IECA/diurético",
+      "severity": "alta",
+      "requires": ["litio", "aine_ieca_diuretico"],
+      "advice": "Aumenta litemia → riesgo de toxicidad (temblor, ataxia, confusión). Evitar combinación; si es imprescindible, control de litemia a los 5-7 días.",
+      "refs": "British Journal of General Practice 2013."
+    },
+    {
+      "id": "benzo_opioide",
+      "title": "Benzodiacepina + opioide",
+      "severity": "alta",
+      "requires": ["benzodiacepina", "opioide"],
+      "advice": "Sumación depresora respiratoria; FDA boxed warning. Evitar combinación, especialmente en ≥65a. Si es imprescindible, dosis mínima eficaz, plazo más corto y advertir al paciente/familia signos de alarma.",
+      "refs": "FDA 2016 boxed warning."
+    },
+    {
+      "id": "isrs_aine",
+      "title": "ISRS + AINE sin gastroprotección",
+      "severity": "media",
+      "requires": ["isrs_irsn", "aine"],
+      "advice": "Riesgo aumentado de hemorragia digestiva alta (~3x). Agregar IBP si la combinación es necesaria, especialmente >65a o antecedente de úlcera.",
+      "refs": "Aliment Pharmacol Ther 2008."
+    },
+    {
+      "id": "alopurinol_azatioprina",
+      "title": "Alopurinol + azatioprina/6-MP",
+      "severity": "alta",
+      "requires": ["alopurinol", "azatioprina"],
+      "advice": "Inhibición de xantinooxidasa potencia toxicidad medular grave. Evitar; si no es posible, reducir azatioprina al 25-33% de la dosis y monitorear hemograma semanal.",
+      "refs": "Lexicomp / BNF."
+    }
+  ],
+  "drugBuckets": {
+    "aine": ["ibuprofeno", "ketoprofeno", "diclofenaco", "naproxeno", "celecoxib", "meloxicam", "ketorolaco", "piroxicam", "indometacina"],
+    "ieca": ["enalapril", "captopril", "lisinopril", "ramipril", "perindopril"],
+    "ara": ["losartan", "valsartan", "candesartan", "irbesartan", "telmisartan"],
+    "ieca_ara": ["enalapril", "captopril", "lisinopril", "ramipril", "perindopril", "losartan", "valsartan", "candesartan", "irbesartan", "telmisartan"],
+    "diuretico": ["hidroclorotiazida", "clortalidona", "furosemida", "espironolactona", "amilorida", "indapamida"],
+    "diuretico_depletor_k": ["hidroclorotiazida", "clortalidona", "furosemida", "indapamida"],
+    "isrs_irsn": ["fluoxetina", "sertralina", "paroxetina", "citalopram", "escitalopram", "venlafaxina", "duloxetina"],
+    "tramadol": ["tramadol"],
+    "anticoag_oral": ["warfarina", "acenocumarol", "neosintrom"],
+    "atb_inr": ["cotrimoxazol", "trimetoprim sulfametoxazol", "metronidazol", "ciprofloxacino", "ciprofloxacina", "claritromicina", "eritromicina", "azitromicina", "fluconazol"],
+    "macrolido_3a4": ["claritromicina", "eritromicina"],
+    "estatina_3a4": ["simvastatina", "atorvastatina", "lovastatina"],
+    "qt_long": ["azitromicina", "claritromicina", "eritromicina", "ciprofloxacino", "ciprofloxacina", "levofloxacino", "ondansetron", "haloperidol", "quetiapina", "risperidona", "citalopram", "escitalopram", "fluconazol", "amitriptilina", "metadona"],
+    "metformina": ["metformina"],
+    "contraste_yodado": ["contraste yodado", "medio de contraste", "iohexol", "iopamidol"],
+    "ibp_2c19": ["omeprazol", "esomeprazol"],
+    "clopidogrel": ["clopidogrel"],
+    "litio": ["litio", "carbonato de litio"],
+    "aine_ieca_diuretico": ["ibuprofeno", "ketoprofeno", "diclofenaco", "naproxeno", "celecoxib", "meloxicam", "ketorolaco", "enalapril", "captopril", "lisinopril", "ramipril", "losartan", "valsartan", "candesartan", "hidroclorotiazida", "clortalidona", "furosemida", "indapamida"],
+    "benzodiacepina": ["alprazolam", "clonazepam", "diazepam", "lorazepam", "bromazepam", "midazolam", "zopiclona", "zolpidem"],
+    "opioide": ["tramadol", "codeina", "morfina", "metadona", "oxicodona", "fentanilo", "buprenorfina"],
+    "alopurinol": ["alopurinol"],
+    "azatioprina": ["azatioprina", "6-mercaptopurina", "mercaptopurina"]
+  }
+}

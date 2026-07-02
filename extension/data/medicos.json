@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "default_titulo": "MÉDICO CIRUJANO",
+  "default_institucion": "CESFAM",
+  "medicos": []
+}
